@@ -1,4 +1,1 @@
-# Praxis Loop
-
-## Directory Layout
 
