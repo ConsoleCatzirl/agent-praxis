@@ -17,7 +17,7 @@ Decompose -> Plan -> Discern
 
 #### Decompose
 
-`praxis-decompose` -> Plan
+`praxis-clear` -> `praxis-decompose` -> Plan
 
 #### Plan
 
