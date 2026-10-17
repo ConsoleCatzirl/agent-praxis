@@ -1,12 +1,8 @@
 ---
-description: template for entries in memory/details/values-details.md
+description: template for entries in .praxis/steering/value-details.md
 ---
 
 # Value: [name]
-
-## Priority
-
-[ Numeric priority ]
 
 ## History
 

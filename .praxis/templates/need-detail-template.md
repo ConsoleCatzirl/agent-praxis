@@ -1,5 +1,5 @@
 ---
-description: template for entries in memory/details/needs-details.md
+description: template for entries in .praxis/steering/need-details.md
 ---
 
 # Need: [Name]

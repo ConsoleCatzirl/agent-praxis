@@ -17,16 +17,18 @@ Approved -> Completed
 
 ## Stage 0: Defined
 
-The Tasks for the Plan Actions are documented.
+A list of Plans are written that complete all Task criteria.
 
 **Entry Paths:**
-- Tasks created in Plan phase
+- Plans created in Plan phase
 
 **Exit Paths:**
 Approved:
-- Discern phase approves the Tasks
+- Discern phase approves the Plans
+Defined:
+- Discern phase marks the Plans for revision
 Rejected:
-- Discern phase rejects the Tasks
+- Discern phase rejects the Plans
 
 ## Stage 1: Approved
 

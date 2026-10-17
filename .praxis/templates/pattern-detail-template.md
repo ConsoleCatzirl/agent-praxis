@@ -1,5 +1,5 @@
 ---
-description: template for entries in memory/details/patterns-details.md
+description: template for entries in .praxis/tracking/pattern-details.md
 ---
 
 # Pattern: [Name]
@@ -56,4 +56,30 @@ Pattern modified: [ ISO-8601 with seconds and timezone ]
 
 - [ Names of Practices related to this pattern or to its confidence ]
 
+## Domain Alignment
+
+### Steering
+
+#### Needs
+- [Needs this supports, constrains, or depends on, if any]
+
+#### Principles
+- [Practices this supports, contradicts, or constrains, if any]
+
+#### Standards
+- [Standards this supports, contradicts, or constrains, if any]
+
+#### Values
+- [Values this supports, contradicts, or constrains, if any]
+
+### Guiding
+
+#### Beliefs
+- [Other beliefs this supports, contradicts, or constrains, if any]
+
+#### Opinions
+- [Opinions this supports, contradicts, or constrains, if any]
+
+#### Practices
+- [Practices this supports, contradicts, or constrains, if any]
 

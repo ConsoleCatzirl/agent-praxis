@@ -1,5 +1,5 @@
 ---
-description: template for entries in memory/logs/skills-log.md
+description: template for entries in .praxis/logs/skills-log.md
 ---
 
 # Timestamp
@@ -11,10 +11,10 @@ description: template for entries in memory/logs/skills-log.md
 # Summary
 [ Description of the change ]
 
-# Cause
+# Trigger
 [ What outcome or action prompted this change? ]
 
-# Change
+# Delta
 [ What changed? ]
 
 # Rationale

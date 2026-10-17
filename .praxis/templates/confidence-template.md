@@ -1,5 +1,5 @@
 ---
-description: template for memory/confidence.md
+description: template for .praxis/tracking/confidence.md
 ---
 
 # Confidence
@@ -42,3 +42,9 @@ Current confidence levels for commands, tools, skills, patterns, and beliefs.
 
 | Belief Name | Confidence | Lifecycle | Evidence Count | Last Updated |
 |-------------|------------|-----------|----------------|--------------|
+
+## Opinions
+
+| Opinion Name | Confidence | Lifecycle | Evidence Count | Last Updated |
+|-------------|------------|-----------|----------------|--------------|
+

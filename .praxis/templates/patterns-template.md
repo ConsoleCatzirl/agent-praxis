@@ -1,5 +1,5 @@
 ---
-description: template for memory/patterns.md
+description: template for .praxis/tracking/patterns.md
 ---
 
 # Patterns
@@ -14,13 +14,13 @@ These are the active patterns held by this agent:
 
 ## Pattern Details
 
-See memory/details/pattern-details.md for descriptions of each pattern.
+See .praxis/tracking/pattern-details.md for descriptions of each pattern.
 
 ## Pattern Lifecycle
 
-For information on the pattern lifecycle, refer to memory/lifecycles/pattern-lifecycle.md
+For information on the pattern lifecycle, refer to .praxis/lifecycles/pattern-lifecycle.md
 
 ## Pattern Logs
 
-See memory/logs/pattern-log.md for a history of lifecycle changes for each pattern.
+See .praxis/logs/pattern-log.md for a history of lifecycle changes for each pattern.
 

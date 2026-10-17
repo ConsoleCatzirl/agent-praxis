@@ -1,12 +1,12 @@
 ---
-description: template for entries in memory/logs/goals-log.md
+description: template for entries in .praxis/logs/standards-log.md
 ---
 
 # Timestamp
 [ ISO-8601 with seconds and timezone ]
 
-# Goal
-[ Name of the Goal ]
+# Standard
+[ Name of the Standard ]
 
 # Summary
 [ Description of the change ]

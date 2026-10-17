@@ -1,5 +1,5 @@
 ---
-description: template for entries in memory/logs/tasks-log.md
+description: template for entries in .praxis/logs/tasks-log.md
 ---
 
 # Timestamp
@@ -22,4 +22,3 @@ description: template for entries in memory/logs/tasks-log.md
 
 # Implications
 [ What else may need to change as a result of this change? ]
-

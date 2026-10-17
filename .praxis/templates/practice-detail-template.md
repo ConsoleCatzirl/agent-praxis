@@ -1,5 +1,5 @@
 ---
-description: template for entries in .praxis/guiding/belief-details.md
+description: template for entries in .praxis/steering/practice-details.md
 ---
 
 # Practice: [Name]

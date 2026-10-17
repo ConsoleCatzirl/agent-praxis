@@ -1,21 +1,21 @@
 ---
-description: template for memory/signals.md
+description: template for .praxis/tracking/signals.md
 ---
 
 # Signals
 
 Calibration and self-evaluation metrics.
 
-## Signal: [ Signal Name ]
+## List of Signals
 
-Value: [ Value ]
+- [ Ordered list of Signals ]
 
-### Description
+## [ Signal Name ]
 
-[ Description of Value ]
+[ Description of Signal ]
 
-## Signal: [Signal 2]
+[ Signal Metric ]
 
-### Description
+[ Notes ] 
 
-### Value
+More info at .praxis/tracking/signal-details.md

@@ -1,5 +1,5 @@
 ---
-description: template for entries in memory/logs/expectations-log.md
+description: template for entries in .praxis/logs/expectations-log.md
 ---
 
 # Timestamp

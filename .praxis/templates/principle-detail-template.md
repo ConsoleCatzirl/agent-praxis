@@ -1,5 +1,5 @@
 ---
-description: template for entries in memory/details/principles-details.md
+description: template for entries in .praxis/steering/principle-details.md
 ---
 
 # Principle: [Name]

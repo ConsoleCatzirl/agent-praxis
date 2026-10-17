@@ -6,29 +6,43 @@ Predictions are anticipations of task outcomes made during the Anticipate phase.
 ## Stages
 
 - Created
-- Actualized
 - Rejected
+- Approved
+- Actualized
 - Analyzed
 
 ## Stage Flow
 
 State-machine grammar for this lifecycle:
 
-Created -> [ Actualized | Rejected ]
-[ Actualized | Rejected ] -> Analyzed
+Created -> [ Rejected | Approved ]
+Approved -> Actualized
+Actualized -> Analyzed
+[ Rejected | Analyzed ] -> Cleared
 
 ## Stage 1: Created
 
 Anticipated outcomes are documented in memory/predictions.md
 
 **Entry Paths:**
-- begin new prediction
+- Document anticipated outcomes for a given Plan
 
 **Exit Paths:**
-Actualized:
-- Tasks are performed
+Approved:
+- Plan is Approved for performing
 Rejected:
-- Tasks are rejected
+- Plan is marked Rejected
+
+## Stage 2: Rejected
+
+The Plan must not be performed.
+
+**Entry Paths:**
+- Plan is deemed unacceptable or inappropriate
+
+**Exit Paths:**
+Cleared:
+- Plan is cleared from state/plans.md
 
 ## Stage 2: Actualized
 

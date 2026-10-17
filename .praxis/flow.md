@@ -9,23 +9,17 @@ One framing is as a state machine; another is a grammar; and yet another is a fl
 
 ## The Praxis Flow
 
-Anticipate -> Act -> Reflect
+Anticipate -> Discern -> Act -> Reflect -> Return
+
+Use `praxis-start-or-resume` for entry or re-entry.
 
 ### Anticipate
 
-Decompose -> Plan -> Discern
+`praxis-decompose` -> `praxis-plan` -> `praxis-predict` -> Discern
 
-#### Decompose
+### Discern
 
-`praxis-clear` -> `praxis-decompose` -> Plan
-
-#### Plan
-
-`praxis-plan` -> `praxis-predict` -> Discern
-
-#### Discern
-
-`praxis-discern` -> [ Plan | Act | Return ]
+`praxis-discern` -> [ Plan | Act | Reflect ]
 
 ### Act
 

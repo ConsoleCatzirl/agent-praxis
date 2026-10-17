@@ -1,5 +1,5 @@
 ---
-description: template for entries in memory/logs/needs-log.md
+description: template for entries in .praxis/logs/needs-log.md
 ---
 
 # Timestamp

@@ -1,5 +1,5 @@
 ---
-description: template for entries in memory/logs/beliefs-log.md
+description: template for entries in .praxis/logs/beliefs-log.md
 ---
 
 # Timestamp

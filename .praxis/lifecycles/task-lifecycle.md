@@ -1,6 +1,6 @@
 # Task Lifecycle
 
-Tasks are units of work created during the Plan phase of the Praxis Flow.
+Tasks are created during the Decompose phase with the purpose and criteria for the Plans created during the Plan phase of the Praxis Flow.
 
 ## Stages
 

@@ -1,5 +1,5 @@
 ---
-description: template for entries in memory/logs/confidence-log.md
+description: template for entries in .praxis/logs/confidence-log.md
 ---
 
 # Timestamp
