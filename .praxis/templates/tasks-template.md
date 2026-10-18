@@ -23,8 +23,8 @@ Tasks associated with the current prompt or action.
 
 Type: [ task category ]
 
-Purpose:
-[ reasoning for completing this task ]
-
 Criteria:
 - [ acceptance criteria ]
+
+Purpose:
+[ reasoning for completing this task ]

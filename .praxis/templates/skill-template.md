@@ -8,6 +8,9 @@ confidence: None | Low | Medium | High | Complete
 
 # Skill: [name]
 
+## Origin
+[ The command or pattern this skill was derived from. ]
+
 ## Purpose
 [ What this skill is for. ]
 
@@ -29,8 +32,13 @@ confidence: None | Low | Medium | High | Complete
 ## Success Criteria
 [ How to know the skill was applied correctly. ]
 
-## Origin
-[ The command or pattern this skill was derived from. ]
+## Domain Alignment
+
+Aligned
+- [ List of aligned steering and guiding domain items ]
+
+Unaligned
+- [ List of unaligned steering and guiding domain items ]
 
 ## Troubleshooting
 

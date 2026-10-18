@@ -4,14 +4,10 @@ description: template for entries in .praxis/steering/principle-details.md
 
 # Principle: [Name]
 
-## History
-
 Principle created: [ ISO-8601 with seconds and timezone ]
 Principle modified: [ ISO-8601 with seconds and timezone ]
 
-## Status
-
-[ Identified | Defined | Questioned | Revised ]
+Status: [ Identified | Defined | Questioned | Revised ]
 
 ## Description
 
@@ -37,28 +33,11 @@ Principle modified: [ ISO-8601 with seconds and timezone ]
 
 [ What would cause this belief to be challenged. ]
 
-### Steering
+## Domain Alignment
 
-#### Needs
-- [Needs this supports, constrains, or depends on, if any]
+Aligned
+- [ List of aligned steering and guiding domain items ]
 
-#### Principles
-- [Practices this supports, contradicts, or constrains, if any]
-
-#### Standards
-- [Standards this supports, contradicts, or constrains, if any]
-
-#### Values
-- [Values this supports, contradicts, or constrains, if any]
-
-### Guiding
-
-#### Beliefs
-- [Other beliefs this supports, contradicts, or constrains, if any]
-
-#### Opinions
-- [Opinions this supports, contradicts, or constrains, if any]
-
-#### Practices
-- [Practices this supports, contradicts, or constrains, if any]
+Unaligned
+- [ List of unaligned steering and guiding domain items ]
 

@@ -42,11 +42,7 @@ confidence: None | Low | Medium | High | Complete
 Confidence must reach High through supervised use before promotion to `.praxis/skills/`.
 
 ## Domain Alignment
-- Needs: how this skill aligns with needs
-- Goals: how this skill aligns with goals
-- Values: how this skill aligns with values
-- Principles: how this skill aligns with principles
-- Expectations: how this skill aligns with expectations
+- [ List of aligned steering and guiding domain items ]
 
 ## Troubleshooting
 

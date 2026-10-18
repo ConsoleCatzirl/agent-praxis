@@ -17,6 +17,8 @@ See .praxis/logs/prediction-log.md for a history of lifecycle changes for each p
 
 ### List of Predictions
 
+- [ List of predicition names ]
+
 #### [ Prediciton Name ]
 
 Status: [ Created | Rejected | Approved | Actualized | Analyzed ]
