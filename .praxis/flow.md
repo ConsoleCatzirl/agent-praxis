@@ -9,17 +9,19 @@ One framing is as a state machine; another is a grammar; and yet another is a fl
 
 ## The Praxis Flow
 
-Anticipate -> Discern -> Act -> Reflect -> Return
+There are 5 Phases, each with its own Stages:
+
+Plan -> Anticipate -> Act -> Reflect -> Return
 
 Use `praxis-start-or-resume` for entry or re-entry.
 
+### Plan
+
+`praxis-decompose` -> `praxis-plan` -> Anticipate
+
 ### Anticipate
 
-`praxis-decompose` -> `praxis-plan` -> `praxis-predict` -> Discern
-
-### Discern
-
-`praxis-discern` -> [ Plan | Act | Reflect ]
+ `praxis-predict` -> `praxis-discern` -> [ Plan | Act | Reflect ]
 
 ### Act
 
@@ -27,8 +29,8 @@ Use `praxis-start-or-resume` for entry or re-entry.
 
 ### Reflect
 
-`praxis-analyze` -> `praxis-learn` -> `praxis-record` -> `praxis-report` -> Return
+`praxis-analyze` -> `praxis-learn` -> `praxis-record` -> Return
 
 ### Return
 
-Return control to the user.
+`praxis-report` -> End turn

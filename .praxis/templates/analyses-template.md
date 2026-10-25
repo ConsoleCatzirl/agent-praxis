@@ -2,14 +2,15 @@
 description: template for entries in .praxis/state/analyses.md
 ---
 
-# Outcome Analyses
+# Plan Outcome Analyses
 
 An analysis for the outcomes of each plan in .praxis/state/plans.md
 
-## Plan: [ Plan Name ]
+## Analysis Lifecycle
 
-Actualized Outcomes:
-- [ list of outcomes after performing the Plan ]
+For information on the analysis lifecycle, refer to `.praxis/lifecycles/analysis-lifecycle.md`
+
+## Plan: [ Plan Name ]
 
 Surprises:
 - [ list of unanticipated outcomes ]
@@ -20,4 +21,7 @@ Unfulfilled:
 Result: [ Helpful | Accurate | Partial | Unfulfilled | Harmful ]
 
 Domain Misalignment:
-- [ Any domain misalignment caused by unanticipated outcomes ]
+[ Any domain misalignment caused by unanticipated outcomes ]
+
+Other Notes:
+[ Any other important notes ]

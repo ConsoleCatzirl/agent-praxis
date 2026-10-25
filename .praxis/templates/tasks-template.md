@@ -4,8 +4,6 @@ description: template for .praxis/state/tasks.md
 
 # Tasks
 
-Status: [ Defined | Approved | Completed | Rejected ]
-
 ## Task Types
 
 This is an incomplete list of task categories:
@@ -15,13 +13,21 @@ This is an incomplete list of task categories:
 - Mutate any form of state
 - Other forms of requests or demands
 
+## Task Lifecycle
+
+`.praxis/lifecycles/task-lifecycle.md`
+
 ## Current Tasks
 
 Tasks associated with the current prompt or action.
 
+- [ List of task names ]
+
 ### [ Task Name ]
 
 Type: [ task category ]
+
+Status: [ Defined | Approved | Completed | Rejected ]
 
 Criteria:
 - [ acceptance criteria ]

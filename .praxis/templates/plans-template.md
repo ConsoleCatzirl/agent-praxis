@@ -6,8 +6,14 @@ description: template for .praxis/state/plans.md
 
 A list of Plans and the Tasks each completes
 
+## Plan Lifecycle
+
+`.praxis/lifecycles/plan-lifecycle.md`
+
+## Plan Order
+
 Plan Order:
-1. [ ordered list of plans based on priority and dependency ]
+1. [ ordered list of plan names based on priority and dependency ]
 
 ## [ Plan Name ]
 
