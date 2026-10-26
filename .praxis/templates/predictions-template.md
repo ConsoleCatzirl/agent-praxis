@@ -24,10 +24,11 @@ Plan: [ Plan Name ]
 Anticipated Outcomes:
 - [ List of expected outcomes and side-effects ]
 
-Outcome Analysis:
-[ Describe anticipated and unexpected outcomes ]
+Prediction Assessment:
 [ Describe outcome alignment across domains ]
-[ Describe changes in confidence levels ]
 [ Describe any follow-up changes that should happen ]
 [ Any other important notes ]
+
+Approval/Rejection Reasoning:
+[ Rationale for approval or rejection of the associated Plan ]
 

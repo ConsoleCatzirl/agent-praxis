@@ -23,6 +23,9 @@ confidence: None | Low | Medium | High | Complete
 ## Requirements
 [ What must be true before this skill can run. ]
 
+## Inputs
+[ Any inputs this skill accepts. ]
+
 ## Procedure
 [ Step-by-step description of how to perform this skill. ]
 
@@ -40,7 +43,16 @@ Aligned
 Unaligned
 - [ List of unaligned steering and guiding domain items ]
 
+## Related Skills
+
+- [ Names of any related skills ]
+
 ## Troubleshooting
 
 ### Issue: [Common Problem]
-Solution: [Solution]
+
+Identifying:
+[ How to identify this issue ]
+
+Solution:
+[ Solution ]
