@@ -29,10 +29,11 @@ Approved Plan and related Prediction
 ## Procedure
 
 For each Plan, perform the Plan's procedure and record all Outcomes using `.praxis/templates/outcomes-template.md`
+As each Plan completes execution, mark it and its associated Tasks as Completed and its Prediction as Actualized.
 
 ## Output
 
-An Outcome for each Plan actualized
+An Outcome for each Plan actualized.
 
 ## Success Criteria
 

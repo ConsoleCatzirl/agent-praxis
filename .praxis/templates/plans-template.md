@@ -15,9 +15,9 @@ A list of Plans and the Tasks each completes
 Plan Order:
 1. [ ordered list of plan names based on priority and dependency ]
 
-## [ Plan Name ]
+## Plan: [ Plan Name ]
 
-Status: [ Defined | Approved | Completed | Rejected ]
+Plan Status: [ Defined | Approved | Completed | Rejected ]
 
 Tasks:
 - [ list of short Task names this Plan completes ]

@@ -2,17 +2,15 @@
 description: template for .praxis/steering/values.md
 ---
 
-# Values and Priorities
+# Values
 
 Current values held by this agent and their respective priority.
 
-## Value Priorities
+## List of Values
 
-Values in priority order:
+- [ The name of each Value ]
 
-1. [ Values listed in priority order ]
-
-## Value Descriptions
+## Value Details
 
 See .praxis/steering/values-details.md for detailed descriptions of each value.
 

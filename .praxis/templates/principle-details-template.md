@@ -7,7 +7,7 @@ description: template for entries in .praxis/steering/principle-details.md
 Principle created: [ ISO-8601 with seconds and timezone ]
 Principle modified: [ ISO-8601 with seconds and timezone ]
 
-Status: [ Identified | Defined | Questioned | Revised ]
+Status: [ Identified | Established | Questioned ]
 
 ## Description
 
@@ -31,7 +31,7 @@ Status: [ Identified | Defined | Questioned | Revised ]
 
 ## Conditions for Revision
 
-[ What would cause this belief to be challenged. ]
+[ What would cause this principle to be challenged. ]
 
 ## Domain Alignment
 

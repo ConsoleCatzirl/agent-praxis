@@ -30,6 +30,8 @@ One or more Created Plans
 
 ## Procedure
 
+For each Plan, assess the Plan's procedure and anticipate all effects and results the Plan will have, documenting in `.praxis/state/predictions.md`.
+
 ## Output
 
 A Prediction in `.praxis/state/predictions.md` for each Plan in `.praxis/state/plans.md`.

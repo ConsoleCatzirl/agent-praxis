@@ -27,13 +27,12 @@ Analyzed Outcomes with Completed Analyses
 Completed Analyses
 
 ## Procedure
-Review each Analysis for changes to Confidence levels.
 
 Review each Analysis for semantic consistency and epistemic cohesion across both Steering and Guiding domains. 
-
-Review this iteration of the Flow for Signal updates
-
-Provide a unified review for all Analyses, highlighting contradictions and suggesting any CRUD changes
+Review each Analysis for appropriate changes to Confidence levels, and write those changes to state.
+Review this iteration of the Flow for Signal updates, and write those changes to state.
+Provide a unified review for all Analyses, highlighting contradictions and suggesting any CRUD changes to steering or guiding domains.
+Ask for user consent to make any steering or guiding domains.
 
 ## Output
 

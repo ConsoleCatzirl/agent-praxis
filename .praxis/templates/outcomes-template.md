@@ -4,7 +4,9 @@ description: template for .praxis/state/outcomes.md
 
 # Plan Outcomes
 
-## [ Plan Name ]
+## Outcomes: [ Plan Name ]
+
+Plan: [ Plan Name ]
 
 Outcome Status: [ Actualized | Analyzed ]
 

@@ -12,7 +12,7 @@ All needs must be adhered to at all times.
 
 These are requirements and constraints this agent must work within.
 
- - [ The Name of each Need ]
+- [ The Name of each Need ]
 
 ## Need Details
 

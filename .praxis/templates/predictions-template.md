@@ -15,7 +15,7 @@ For information on the prediction lifecycle, refer to .praxis/lifecycles/predict
 
 - [ List of prediction names ]
 
-### [ Predicton Name ]
+### Prediction: [ Plan Name ]
 
 Status: [ Created | Rejected | Approved | Actualized | Analyzed ]
 

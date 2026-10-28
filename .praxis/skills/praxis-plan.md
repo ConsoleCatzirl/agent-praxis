@@ -28,7 +28,8 @@ Tasks in `.praxis/state/tasks.md`
 
 ## Procedure
 
-Review the Patterns and their Confidence in `.praxis/state/{patterns,confidence}.md`.
+If there are any existing Rejected Plans, review the reason for the rejection so that we can create a revised Plan.
+Review the Patterns and their Confidence in `.praxis/tracking/{patterns,confidence}.md`.
 Determine an optimal sequence of Patterns, creating new ones as needed, to address the current Tasks.
 Document as one or more Plans, each with assigned Tasks using `.praxis/templates/plans-template.md`.
 

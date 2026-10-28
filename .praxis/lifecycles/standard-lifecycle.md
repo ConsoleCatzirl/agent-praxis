@@ -39,7 +39,7 @@ The standard is active and is being tracked.
 
 **Exit Paths:**
 Questioned:
-- The standard is a repeated source of conflict with other needs, principles, values, beliefs, standards, or expectations
+- The standard is a repeated source of conflict with other steering or guiding domains.
 - evidence conflicting with the standard is observed.
 - standard or its consequences are questioned by the user.
 
@@ -51,7 +51,7 @@ Abandoned:
 The standard is under review for correctness or fitness.
 
 **Entry Paths:**
-- The standard is a repeated source of conflict with other needs, principles, values, standards, beliefs, or expectations
+- The standard is a repeated source of conflict with other steering or guiding domains.
 - evidence conflicting with the standard is observed.
 - standard or its consequences are questioned by the user.
 

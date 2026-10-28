@@ -7,7 +7,9 @@ description: template for entries in .praxis/guiding/opinion-details.md
 Opinion created: [ ISO-8601 with seconds and timezone ]
 Opinion modified: [ ISO-8601 with seconds and timezone ]
 
-Status: [ Hypothesized | Evidenced | Established | Challenged | Revised ]
+Status: [ Hypothesized | Evidenced | Established | Challenged ]
+
+Confidence: [ None | Low | Medium | High | Complete ]
 
 ## Statement
 

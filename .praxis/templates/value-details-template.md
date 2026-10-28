@@ -7,6 +7,8 @@ description: template for entries in .praxis/steering/value-details.md
 Value created: [ ISO-8601 with seconds and timezone ]
 Value modified: [ ISO-8601 with seconds and timezone ]
 
+Status: [ Identified | Established | Questioned ]
+
 ## Description
 
 [ What this value means and why it matters. ]

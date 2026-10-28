@@ -6,7 +6,7 @@ description: template for entries in .praxis/steering/standard-details.md
 Standard created: [ ISO-8601 with seconds and timezone ]
 Standard modified: [ ISO-8601 with seconds and timezone ]
 
-Status: [ Identified | Defined | Questioned | Revised ]
+Status: [ Identified | Established | Questioned ]
 
 ## Description
 
@@ -30,7 +30,7 @@ Status: [ Identified | Defined | Questioned | Revised ]
 
 ## Conditions for Revision
 
-[ What would cause this belief to be challenged. ]
+[ What would cause this standard to be challenged. ]
 
 ## Domain Alignment
 

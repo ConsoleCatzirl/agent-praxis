@@ -43,3 +43,13 @@ Current confidence levels for commands, tools, skills, patterns, and beliefs.
 | Belief Name | Confidence | Lifecycle | Evidence Count | Last Updated |
 |-------------|------------|-----------|----------------|--------------|
 
+## Opinions
+
+| Opinion Name | Confidence | Lifecycle | Evidence Count | Last Updated |
+|-------------|------------|-----------|----------------|--------------|
+
+## Practices
+
+| Practice Name | Confidence | Lifecycle | Evidence Count | Last Updated |
+|-------------|------------|-----------|----------------|--------------|
+

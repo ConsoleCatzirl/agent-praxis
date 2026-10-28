@@ -44,7 +44,18 @@ The Plan must not be performed.
 Analyzed:
 - Prediction analysis performed
 
-## Stage 3: Actualized
+## Stage 3: Approved
+
+This Prediction's Plan is approved and ready to be performed.
+
+**Entry Paths:**
+- Discern approves Prediction and its Plan
+
+**Exit Paths:**
+Actualized:
+- The plan is performed in `praxis-act`
+
+## Stage 4: Actualized
 
 Actualized outcomes are documented in memory/predictions.md
 
@@ -54,7 +65,7 @@ Actualized outcomes are documented in memory/predictions.md
 **Exit Paths:**
 - Prediction analysis performed
 
-## Stage 4: Analyzed
+## Stage 5: Analyzed
 
 Anticipated and Actualized outcomes (or rejection reason) have been compared and learnings have been documented.
 

@@ -27,6 +27,7 @@ Current state, tracking, and domains
 ## Procedure
 
 For every file under `.praxis/` with uncommitted changes, create one commit per logical change.
+Continue to `praxis-report`.
 
 ## Output
 
@@ -34,7 +35,7 @@ Git commits
 
 ## Success Criteria
 
-All changes to files under `.praxis/` are committed to git
+All changes to files under `.praxis/` are committed to git.
 
 ## Domain Alignment
 

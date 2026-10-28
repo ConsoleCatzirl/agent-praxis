@@ -28,9 +28,9 @@ Created Predicton
 
 ## Procedure
 
-For each Plan with a Prediction, review the anticipated outcomes for the Plan.
+For each Plan with a Prediction, review the anticipated outcomes in the Prediction.
 If any anticipated outcomes would be harmful, mark the Plan and its Prediction Rejected and continue to `praxis-analyze`.
-If anticipated outcomes don't fulfill all of the Plan's Tasks, return to `praxis-plan` and create a new Plan with a new Prediction.
+If the anticipated outcomes don't fulfill all of the Plan's Tasks, mark the Plan and its Prediction Rejected and return to `praxis-plan` to revise the Plan with a new Prediction.
 If there are no harmful anticipated outcomes and all respective Tasks would be completed, mark the Plan and its Prediction Approved and continue to `praxis-act`.
 
 ## Outputs

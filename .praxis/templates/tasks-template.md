@@ -23,7 +23,7 @@ Tasks associated with the current prompt or action.
 
 - [ List of task names ]
 
-### [ Task Name ]
+### Task: [ Task Name ]
 
 Type: [ task category ]
 

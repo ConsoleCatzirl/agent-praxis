@@ -10,7 +10,11 @@ An analysis for the outcomes of each plan in .praxis/state/plans.md
 
 For information on the analysis lifecycle, refer to `.praxis/lifecycles/analysis-lifecycle.md`
 
-## Plan: [ Plan Name ]
+## Analysis: [ Plan Name ]
+
+Plan: [ Plan Name ]
+
+Analysis Status: [ Created | Processed ]
 
 Surprises:
 - [ list of unanticipated outcomes ]

@@ -7,7 +7,7 @@ description: template for entries in .praxis/tracking/pattern-details.md
 Pattern created: [ ISO-8601 with seconds and timezone ]
 Pattern modified: [ ISO-8601 with seconds and timezone ]
 
-Status: [ Hypothesized | Evidenced | Established | Challenged ]
+Status: [ Identified | Established | Questioned | Abandoned ]
 
 Confidence: [ None | Low | Medium | High | Complete ]
 
@@ -25,11 +25,11 @@ Confidence: [ None | Low | Medium | High | Complete ]
 
 ## Conditions for Revision
 
-[ What would cause this belief to be challenged. ]
+[ What would cause this pattern to be challenged. ]
 
 ## Evidence Notes
 
-[ Summary of evidence supporting this belief, or a note of lack of evidence ]
+[ Summary of evidence supporting this pattern, or a note of lack of evidence ]
 
 ## Confidence Alignment
 

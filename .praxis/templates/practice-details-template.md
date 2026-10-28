@@ -7,7 +7,7 @@ description: template for entries in .praxis/steering/practice-details.md
 Practice created: [ ISO-8601 with seconds and timezone ]
 Practice modified: [ ISO-8601 with seconds and timezone ]
 
-Status: [ Hypothesized | Evidenced | Established | Challenged | Revised ]
+Status: [ Identified | Established | Questioned ]
 
 Confidence: [ None | Low | Medium | High | Complete ]
 
