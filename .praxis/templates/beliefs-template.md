@@ -22,5 +22,5 @@ For information on the belief lifecycle, refer to .praxis/lifecycles/belief-life
 
 ## Belief Logs
 
-See .praxis/logs/belief-log.md for a history of lifecycle changes for each belief.
+See `git log --numstat .praxis/guiding/belief*` for a history of lifecycle changes for each belief.
 

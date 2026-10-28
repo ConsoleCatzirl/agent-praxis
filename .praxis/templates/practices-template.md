@@ -1,26 +1,26 @@
 ---
-description: template for .praxis/guiding/opinions.md
+description: template for .praxis/guiding/practices.md
 ---
 
-# Opinions
+# Practices
 
-Current opinions held by this agent.
+Current practices held by this agent.
 
-## List of Opinions
+## List of Practices
 
-These are the active opinions held by this agent:
+These are the active practices held by this agent:
 
-- [ The Name of each Opinion ]
+- [ The Name of each Practice ]
 
-## Opinion Details
+## Practice Details
 
-See .praxis/guiding/practices-details.md for descriptions of each opinion.
+See .praxis/guiding/practices-details.md for descriptions of each practice.
 
-## Opinion Lifecycle
+## Practice Lifecycle
 
-For information on the opinion lifecycle, refer to .praxis/lifecycles/opinion-lifecycle.md
+For information on the practice lifecycle, refer to .praxis/lifecycles/practice-lifecycle.md
 
-## Opinion Logs
+## Practice Logs
 
-See .praxis/logs/opinion-log.md for a history of lifecycle changes for each opinion.
+See `git log --numstat .praxis/guiding/practice*` for a history of lifecycle changes for each practice.
 

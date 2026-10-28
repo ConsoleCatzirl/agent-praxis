@@ -1,5 +1,5 @@
 ---
-description: template for .praxis/state/predictions.md
+description: template for .praxis/state/outcomes.md
 ---
 
 # Plan Outcomes
@@ -9,5 +9,5 @@ description: template for .praxis/state/predictions.md
 Outcome Status: [ Actualized | Analyzed ]
 
 Actualized Outcomes:
-- [ list of direct and indirect results of performing the Plan ]
+- [ list of direct and indirect effects and results of performing the Plan ]
 

@@ -22,6 +22,6 @@ See .praxis/lifecycles/value-lifecycle.md for information on the lifecycle of a 
 
 ## Value Logs
 
-Lifecycle changes for values are logged in .praxis/logs/values-log.md
+Logs for lifecycle changes for values can be found with `git log --numstat .praxis/steering/value*`
 
 

@@ -20,29 +20,18 @@ After performing the current Plans
 
 ## Requirements
 
-Either:
-  - Both:
-    - Actualized Prediction
-    - Actualized Outcome
-  - Rejected Prediction
+Either an Actualized Prediction and its Actualized Outcome, or a Rejected Prediction.
 
 ## Inputs
 
-Either:
-  - Both:
-    - Actualized Prediction
-    - Actualized Outcome
-  - Rejected Prediction
+Either an Actualized Prediction and its Actualized Outcome, or a Rejected Prediction.
 
 ## Procedure
 
-For each Plan:
-1. Review that Plan's Prediction for anticipated outcomes, and approval or rejection.
-2. If a Prediction was rejected, determine why the plan was created and why it was rejected.
-3. If a Prediciton was approved and actualized, compare anticipated outcomes with actualized outcomes and determine the Result.
-4. Write the analysis to state.
-5. Mark both the Prediction and any Outcomes for this Plan as Analyzed.
-6. Continue to the Learn stage.
+For each Plan, review that Plan's Prediction; determine which Plans and their Predictions are Approved vs Rejected.
+If a Prediction was rejected, determine why the plan was created and why it was rejected; if a Predicton was approved and actualized, compare anticipated outcomes with actualized outcomes and determine the Result.
+Write the analysis to state; mark both the Prediction and its Outcomes for this Plan as Analyzed.
+Continue to the Learn stage.
 
 ## Output
 
@@ -50,7 +39,7 @@ A Created Analysis.
 
 ## Success Criteria
 
-Analysis is sucessfully written to state.
+Analysis is successfully written to state.
 
 ## Domain Alignment
 

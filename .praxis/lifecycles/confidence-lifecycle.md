@@ -90,7 +90,7 @@ Medium:
 - Any detrimental outcomes
 - user request or direct statement
 Complete:
-- Numerous uses without any unantipated outcomes
+- Numerous uses without any unanticipated outcomes
 
 ### Level 4: Complete
 
@@ -169,4 +169,4 @@ Confidence level is no longer tracked.
 - direct user statement
 
 **Exit Paths:**
-- subject removed from  `.praxis/tracking/confidence.md` and `.praxis/tracking/confidence-details.md`, the removal is logged in `.praxis/logs/confidence-log.md`.
+- subject removed from  `.praxis/tracking/confidence.md` and `.praxis/tracking/confidence-details.md`, and the change is committed to git.

@@ -130,4 +130,4 @@ The belief has been discarded as no longer supported (abandoned) based on new ev
 - Direct user request or statement.
 
 **Exit Paths:**
-- The belief is removed from `.praxis/guiding/beliefs.md`. The removal is logged in `.praxis/logs/belief-log.md`.
+- The belief is removed from `.praxis/guiding/beliefs.md` and the change is committed to git.

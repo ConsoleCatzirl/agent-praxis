@@ -38,14 +38,14 @@ Medium:
 **Exit Paths:**
 
 Evidenced:
-- A second independent observation supports the pattern.
+- A third independent observation supports the pattern.
 
 Abandoned:
 - pattern deemed unsupported.
 
 ## Stage 2: Evidenced
 
-The pattern is supported by 2 or more independent observations. It is plausible but not yet consistently confirmed.
+The pattern is supported by 3 or more independent observations. It is plausible but not yet consistently confirmed.
 
 **Confidence:** Medium
 
@@ -112,4 +112,4 @@ The pattern has been discarded as no longer supported (Abandoned) based on new e
 - Pattern deemed unsupported at any stage.
 
 **Exit Paths:**
-- The pattern is removed from `.praxis/tracking/patterns.md`. The removal is logged in `.praxis/logs/pattern-log.md`.
+- The pattern is removed from `.praxis/tracking/patterns.md`, and the change is committed to git.

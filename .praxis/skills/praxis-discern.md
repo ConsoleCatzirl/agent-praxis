@@ -1,6 +1,6 @@
 ---
 name: praxis-discern
-description: Determine whether on not act on a plan
+description: Determine whether or not act on a plan
 ---
 
 # Skill: Praxis Discern
@@ -14,7 +14,7 @@ Initial Implementation
 Review Plans and their Predictions for approval or rejection.
 
 ## When to Use
-After creating a Predicition, before performing its Plan
+After creating a Prediction, before performing its Plan
 
 ## How it Works
 
@@ -24,15 +24,14 @@ Created Prediction
 
 ## Inputs
 
-Created Prediciton
+Created Predicton
 
 ## Procedure
 
-For each Plan with a Prediction:
-1. Review the anticipated outcomes for the Plan
-2. If any anticipated outcomes would be harmful, mark the Plan and its Prediction Rejected
-3. If any anticipated outcomes don't fulfill the Plan's Tasks, return to the Praxis Plan stage and create a new Plan with a new Prediction.
-4. If there are no harmful anticipated outcomes and all respective Tasks would be completed, mark the Plan and its Prediction Approved
+For each Plan with a Prediction, review the anticipated outcomes for the Plan.
+If any anticipated outcomes would be harmful, mark the Plan and its Prediction Rejected and continue to `praxis-analyze`.
+If anticipated outcomes don't fulfill all of the Plan's Tasks, return to `praxis-plan` and create a new Plan with a new Prediction.
+If there are no harmful anticipated outcomes and all respective Tasks would be completed, mark the Plan and its Prediction Approved and continue to `praxis-act`.
 
 ## Outputs
 

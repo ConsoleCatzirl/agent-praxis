@@ -26,6 +26,8 @@ The most recent run of the Praxis Flow
 
 ## Procedure
 
+Review the changes to `.praxis/` as well as the Outcomes themselves for this iteration of the Flow, and provide a summary conversationally.
+
 ## Outputs
 
 Conversational summary

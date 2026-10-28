@@ -32,7 +32,7 @@ Established:
 
 ## Stage 1: Established
 
-The principle is in force. Track whether it is being met and log outcomes.
+The principle is in force and is being tracked.
 The principle governs thinking, acting, learning, and responding. Violations should be caught during reflection and corrected.
 
 **Entry Paths:**
@@ -40,7 +40,7 @@ The principle governs thinking, acting, learning, and responding. Violations sho
 
 **Exit Paths:**
 Questioned:
-- The principle is a repeated source of conflict with other needs, principles, values, goals, or principles
+- The principle is a repeated source of conflict with other needs, principles, values.
 - principle or its consequences are questioned by the user.
 
 Abandoned:
@@ -51,7 +51,7 @@ Abandoned:
 The principle is a repeated source of conflict in decision-making or behavior guidance. It requires evaluation to determine if the principle is correctly formulated or if it should be reclassified.
 
 **Entry Paths:**
-- The principle is a repeated source of conflict with other needs, principles, values, goals, beliefs, or principles
+- The principle is a repeated source of conflict with other needs, principles, values. 
 - principle or its consequences are questioned by the user.
 
 **Exit Paths:**
@@ -64,7 +64,7 @@ Abandoned:
 
 ## Stage 3: Abandoned
 
-The principle has been removed from active consideration. Evidence of the principle remains in logs.
+The principle has been removed from active consideration. Evidence of the principle remains in git logs.
 
-**Exit Paths:**:
-- Principle is removed from `.praxis/steering/principles.md` and `.praxis/steering/principle-details.md`, removal is logged in `.praxis/logs/principle-log.md`.
+**Exit Paths:**
+- Principle is removed from `.praxis/steering/principles.md` and `.praxis/steering/principle-details.md`, removal is committed to git.

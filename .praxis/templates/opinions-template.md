@@ -22,5 +22,5 @@ For information on the opinion lifecycle, refer to .praxis/lifecycles/opinion-li
 
 ## Opinion Logs
 
-See .praxis/logs/opinion-log.md for a history of lifecycle changes for each opinion.
+See `git log --numstat .praxis/guiding/opinion*` for a history of lifecycle changes for each opinion.
 

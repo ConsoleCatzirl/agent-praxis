@@ -5,7 +5,7 @@ description: template for .praxis/steering/standards.md
 # Standards
 
 Standards are non-negotiable requirements and constraints.
-Standards cannot be overridden by principles, values, goals, or expectations.
+Standards cannot be overridden by other needs, principles, standards, or values.
 All standards must be adhered to at all times.
 
 ## List of Standards
@@ -24,5 +24,5 @@ For information on the standard lifecycle, refer to .praxis/lifecycles/standard-
 
 ## Standard Logs
 
-See .praxis/logs/standard-log.md for a history of lifecycle changes for each standard.
+See `git log --numstat .praxis/steering/standard*` for a history of lifecycle changes for each standard.
 

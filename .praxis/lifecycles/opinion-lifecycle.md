@@ -123,7 +123,7 @@ Abandoned:
 
 The opinion has been discarded as no longer supported (Abandoned) based on new evidence or user request.
 
-The opinion is removed from `.praxis/guiding/opinions.md`. The removal is logged in `.praxis/logs/opinion-log.md`.
+The opinion is removed from `.praxis/guiding/opinions.md`, and the change is committed to git.
 
 **Confidence:** None
 

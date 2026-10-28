@@ -7,7 +7,7 @@ description: template for entries in .praxis/guiding/belief-details.md
 Belief created: [ ISO-8601 with seconds and timezone ]
 Belief modified: [ ISO-8601 with seconds and timezone ]
 
-Status: [ Hypothesized | Evidenced | Established | Challenged | Revised ]
+Status: [ Hypothesized | Evidenced | Established | Challenged ]
 
 Confidence: [ None | Low | Medium | High | Complete ]
 

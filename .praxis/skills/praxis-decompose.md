@@ -3,7 +3,7 @@ name: praxis-decompose
 description: Decompose user prompt into tasks
 ---
 
-# Praxis Decompose
+# Skill: Praxis Decompose
 
 Decompose the user prompt into a list of Tasks.
 
@@ -30,11 +30,9 @@ Coherent user prompt
 
 ## Procedure
 
-1. Review the types of Tasks
-2. Identify all Tasks contained in the user prompt
-3. Ask the user for any needed clarity
-4. Write Tasks to state
-5. Continue to the Praxis Plan stage with these Tasks
+Review the types of Tasks. Identify all Tasks contained in the user prompt, asking the user for any needed clarity.
+Write the tasks to `.praxis/state/tasks.md` using `.praxis/templates/tasks-template.md`.
+Continue to the Praxis Plan stage with these Tasks
 
 ## Output
 
@@ -56,3 +54,5 @@ All Tasks inferred from the user prompt are written to state.
 - praxis-analyze
 - praxis-learn
 - praxis-record
+
+## Troubleshooting

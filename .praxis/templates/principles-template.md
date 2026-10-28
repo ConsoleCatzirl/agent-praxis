@@ -22,5 +22,5 @@ For information on the principle lifecycle, refer to .praxis/lifecycles/principl
 
 ## Principle Logs
 
-See .praxis/logs/principles-log.md for a history of lifecycle changes for each principle.
+See `git log --numstat .praxis/steering/principle*` for a history of lifecycle changes for each principle.
 

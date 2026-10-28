@@ -22,5 +22,5 @@ For information on the pattern lifecycle, refer to .praxis/lifecycles/pattern-li
 
 ## Pattern Logs
 
-See .praxis/logs/pattern-log.md for a history of lifecycle changes for each pattern.
+See `git log --numstat .praxis/tracking/pattern*` for a history of lifecycle changes for each pattern.
 

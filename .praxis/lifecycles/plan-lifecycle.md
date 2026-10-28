@@ -32,26 +32,26 @@ Rejected:
 
 ## Stage 1: Approved
 
-The task is recorded and awaiting execution. Dependencies must be satisfied before moving to In Progress.
+The Plan is recorded and awaiting execution.
 
 **Entry Paths:**
-- Tasks approved in Discern phase
+- Plans approved in Discern phase
 
 **Exit Paths:**
 Completed:
-- Tasks performed in the Act phase
+- Plans performed in the Act phase
 
 ## Stage 2: Completed
 
-All sub-tasks are finished. Document outcomes and any artifacts produced.
+All Plans have finished execution. Document Outcomes and any artifacts produced.
 
 **Entry Paths:**
-- Tasks performed in the Act phase
+- Plan performed in the Act phase
 
 ## Stage 3: Rejected
 
-Tasks will not be performed.
+Plan will not be performed.
 
 **Entry Paths:**
-- Tasks rejected in the Discern phase
+- Plan rejected in the Discern phase
 

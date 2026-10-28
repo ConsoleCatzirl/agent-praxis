@@ -26,7 +26,7 @@ Current state, tracking, and domains
 
 ## Procedure
 
-For every file under `.praxis/` with uncommitted changes, create one commit per file.
+For every file under `.praxis/` with uncommitted changes, create one commit per logical change.
 
 ## Output
 

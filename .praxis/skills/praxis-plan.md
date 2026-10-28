@@ -28,7 +28,9 @@ Tasks in `.praxis/state/tasks.md`
 
 ## Procedure
 
-1. Determine an appropriate list of patterns and one-off skills, tools, and commands to address each current Task, document as one or more Plans.
+Review the Patterns and their Confidence in `.praxis/state/{patterns,confidence}.md`.
+Determine an optimal sequence of Patterns, creating new ones as needed, to address the current Tasks.
+Document as one or more Plans, each with assigned Tasks using `.praxis/templates/plans-template.md`.
 
 ## Output
 

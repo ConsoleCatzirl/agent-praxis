@@ -1,3 +1,3 @@
 # Signal Tracking
 
-Data points for tracking the perforamnce and quality of The Praxis Flow itself.
+Data points for tracking the performance and quality of The Praxis Flow itself.

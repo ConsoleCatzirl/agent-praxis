@@ -78,4 +78,4 @@ The need is permanently removed. This should be rare, as needs represent non-neg
 - Identified as the source of an unresolvable conflict within or across steering domains
 
 **Exit Paths:**
-- The need is removed from `.praxis/steering/needs.md` and `.praxis/steering/need-details.md`, and the removal is logged in `.praxis/logs/need-log.md`
+- The need is removed from `.praxis/steering/needs.md` and `.praxis/steering/need-details.md`, and the change is committed to git.

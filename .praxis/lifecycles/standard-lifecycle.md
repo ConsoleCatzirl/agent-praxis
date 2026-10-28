@@ -32,7 +32,7 @@ Established:
 
 ## Stage 1: Established
 
-The standard is active. Track whether it is being met and log outcomes.
+The standard is active and is being tracked.
 
 **Entry Paths:**
 - standard documented in `.praxis/steering/standards.md` and `.praxis/steering/standard-details.md`
@@ -72,4 +72,4 @@ The standard is permanently removed. This should be rare.
 - Explicit user request
 
 **Exit Paths:**
-- The standard is removed from `standards.md` and `standard-details.md`, removal is logged in `logs/standard-log.md`.
+- The standard is removed from `standards.md` and `standard-details.md`, removal is logged in git.

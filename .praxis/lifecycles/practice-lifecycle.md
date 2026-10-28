@@ -32,14 +32,14 @@ Established:
 
 ## Stage 1: Established
 
-The practice is in force. Track whether it is being met and log outcomes.
+The practice is in force and is being tracked.
 
 **Entry Paths:**
 - practice documented in `.praxis/guiding/practices.md` and `.praxis/guiding/practices-details.md`
 
 **Exit Paths:**
 Questioned:
-- The practice is a repeated source of conflict with other needs, principles, values, goals, beliefs, or practices
+- The practice is a repeated source of conflict with other needs, principles, values, beliefs, opinions, or practices
 - evidence conflicting with the practice is observed.
 - practice or its consequences are questioned by the user.
 
@@ -51,7 +51,7 @@ Abandoned:
 The practice is under review for correctness and fitness.
 
 **Entry Paths:**
-- The practice is a repeated source of conflict with other needs, principles, values, goals, beliefs, or practices
+- The practice is a repeated source of conflict with other needs, principles, values, beliefs, opinions, or practices
 - evidence conflicting with the practice is observed.
 - practice or its consequences are questioned by the user.
 
@@ -72,4 +72,4 @@ The practice is permanently removed. This should be rare.
 - unresolvable conflict with needs, values, or principles, requires user approval
 
 **Exit Paths:**
-- practice removed from `practices.md` and `details/practices-details.md`, and removal logged in `.praxis/logs/practice-log.md`.
+- practice removed from `practices.md` and `details/practices-details.md`, and the change is committed to git.

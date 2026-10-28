@@ -3,7 +3,7 @@ name: praxis-predict
 description: Predict anticipated outcomes for the current Plan
 ---
 
-# Praxis Predict
+# Skill: Praxis Predict
 
 Predict anticipated outcomes for the current Plan
 
@@ -22,11 +22,11 @@ After creating Plans, before discerning Plan approval
 
 ## Requirements
 
-Created Plan/s
+One or more Created Plans in `.praxis/state/plans.md`.
 
 ## Inputs
 
-Plan
+One or more Created Plans
 
 ## Procedure
 

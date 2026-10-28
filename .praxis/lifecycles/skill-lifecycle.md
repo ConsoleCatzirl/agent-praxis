@@ -53,7 +53,7 @@ The skill is added to the Skills table in `confidence.md` at Low confidence.
 
 During this stage:
 - The skill is used under supervision — the agent invokes it and reflects on outcomes
-- Each use is recorded in the prediction log
+- Each use is recorded as confidence evidence.
 - Supervision notes are added to the incubation file after each cycle
 - Confidence is updated via the `learn` skill after each use
 
@@ -84,10 +84,10 @@ If approved:
 - Move the skill file from `.praxis/skills/incubation/` to `.praxis/skills/`
 - Update the skill file to use the certified skill template (`.praxis/templates/skill-template.md`)
 - Update `confidence.md`: move the skill entry from incubating to the main Skills table, retaining its current confidence level
-- Log the promotion in `.praxis/memory/logs/skill-log.md`
+- Log the promotion in git.
 
 **Entry trigger:** User approves promotion via consent.
-**Exit trigger:** File moved, confidence updated, promotion logged.
+**Exit trigger:** File moved, confidence updated, promotion logged in git.
 
 ## Stage 5: Certified Use
 

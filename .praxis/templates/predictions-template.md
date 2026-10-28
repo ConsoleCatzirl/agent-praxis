@@ -4,7 +4,7 @@ description: template for .praxis/state/predictions.md
 
 # Plan Predictions
 
-Current predictions and their outcomes, both anticipated and unantipated.
+Current predictions and their outcomes, both anticipated and unanticipated.
 Once an action is taken and reflected on, the prediction moves to the log.
 
 ## Prediction Lifecycle
@@ -13,9 +13,9 @@ For information on the prediction lifecycle, refer to .praxis/lifecycles/predict
 
 ## List of Predictions
 
-- [ List of predicition names ]
+- [ List of prediction names ]
 
-### [ Prediciton Name ]
+### [ Predicton Name ]
 
 Status: [ Created | Rejected | Approved | Actualized | Analyzed ]
 

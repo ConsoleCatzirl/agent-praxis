@@ -1,7 +1,7 @@
 # Outcome Lifecycle
 
 This document defines the lifecycle stages for plans tracked in `.praxis/state/outcomes.md`.
-A Plan is a list of Tasks to perform during Act
+An Outcome is the list of effects and results from performing a Plan.
 
 ## Stages
 
@@ -14,7 +14,7 @@ Actualized -> Analyzed
 
 ## Stage 1: Actualized
 
-The outcome has been actualized.
+The Outcome has been Actualized and documented in `.praxis/state/outcomes.md`
 
 **Entry Paths:**
 - A plan is performed and the outcomes are recorded

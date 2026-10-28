@@ -7,7 +7,7 @@ description: template for entries in .praxis/tracking/pattern-details.md
 Pattern created: [ ISO-8601 with seconds and timezone ]
 Pattern modified: [ ISO-8601 with seconds and timezone ]
 
-Status: [ Hypothesized | Evidenced | Established | Challenged | Revised ]
+Status: [ Hypothesized | Evidenced | Established | Challenged ]
 
 Confidence: [ None | Low | Medium | High | Complete ]
 

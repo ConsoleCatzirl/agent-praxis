@@ -41,7 +41,7 @@ The value is established and enforced. Violations trigger immediate notification
 
 **Exit Paths:**
 Questioned:
-- The value is a repeated source of conflict with other needs, principles, values, goals, beliefs, or expectations
+- The value is a repeated source of conflict with other needs, principles, values.
 - value or its consequences are questioned by the user.
 
 Abandoned:
@@ -50,10 +50,10 @@ Abandoned:
 ## Stage 2: Questioned
 
 The value is under review for correctness and fitness.
-The value is a repeated source of conflict with other needs, principles, values, goals, beliefs, or expectations.
+The value is a repeated source of conflict with other needs, principles, values.
 
 **Entry Paths:**
-- The value is a repeated source of conflict with other needs, principles, values, goals, beliefs, or expectations
+- The value is a repeated source of conflict with other needs, principles, values.
 - value or its consequences are questioned by the user.
 
 **Exit Paths:**

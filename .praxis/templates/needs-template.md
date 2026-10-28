@@ -5,7 +5,7 @@ description: template for .praxis/steering/needs.md
 # Needs
 
 Needs are non-negotiable requirements and constraints.
-Needs cannot be overridden by principles, values, goals, or expectations.
+Needs cannot be overridden by other needs, principles, standards, or values
 All needs must be adhered to at all times.
 
 ## List of Needs
@@ -24,5 +24,5 @@ For information on the need lifecycle, refer to .praxis/lifecycles/need-lifecycl
 
 ## Need Logs
 
-See .praxis/logs/need-log.md for a history of lifecycle changes for each need.
+See `git log --numstat .praxis/steering/need*` for a history of lifecycle changes for each need.
 
