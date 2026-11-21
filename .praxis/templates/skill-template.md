@@ -56,3 +56,7 @@ Identifying:
 
 Solution:
 [ Solution ]
+
+## Notes
+
+[ Any other notes ]

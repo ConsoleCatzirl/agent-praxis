@@ -10,22 +10,41 @@ An Outcome is the list of effects and results from performing a Plan.
 
 ## Stage Flow
 
+```
+New -> [ Actualized | Bypassed ]
 Actualized -> Analyzed
+[ Analyzed | Bypassed ] -> Cleared
+```
 
 ## Stage 1: Actualized
 
 The Outcome has been Actualized and documented in `.praxis/state/outcomes.md`
 
 **Entry Paths:**
-- A plan is performed and the outcomes are recorded
+- `praxis-flow-act`
 
 **Exit Paths:**
 Analyzed:
-- The outcomes are analyzed
+- `praxis-analyze`
 
 ## Stage 2: Analyzed
 
 The outcome has been analyzed.
 
 **Entry Paths:**
-- An analysis for this outcome is recorded
+- `praxis-analyze`
+
+**Exit Paths:**
+Cleared:
+- `praxis-clear`
+
+## Stage 3: Bypassed
+
+A Plan for all Trivial complexity Tasks, bypassing planning prediction, and disernment
+
+**Entry Paths:**
+- `praxis-decompose`
+
+**Exit Paths:**
+Cleared:
+- `praxis-clear`

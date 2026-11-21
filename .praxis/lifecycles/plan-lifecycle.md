@@ -5,53 +5,76 @@ A Plan is a list of Tasks to perform during Act
 
 ## Stages
 
-- Defined
+- Proposed
 - Approved
 - Rejected
 - Completed
+- Bypassed
 
 ## Stage Flow
 
-Defined -> [ Approved | Rejected ]
+```
+New -> [ Proposed | Bypassed ]
+Proposed -> [ Approved | Rejected ]
 Approved -> Completed
+[ Rejected | Completed | Bypassed ] -> Cleared
+```
 
-## Stage 0: Defined
+## Stage 1: Proposed
 
 A list of Plans are written that complete all Task criteria.
 
 **Entry Paths:**
-- Plans created in Plan phase
+- `praxis-plan`
 
 **Exit Paths:**
 Approved:
-- Discern phase approves the Plans
-Defined:
-- Discern phase marks the Plans for revision
+- `praxis-discern`
 Rejected:
-- Discern phase rejects the Plans
+- `praxis-discern`
+- `praxis-prediction`
 
-## Stage 1: Approved
+## Stage 2: Approved
 
 The Plan is recorded and awaiting execution.
 
 **Entry Paths:**
-- Plans approved in Discern phase
+- `praxis-discern`
 
 **Exit Paths:**
 Completed:
-- Plans performed in the Act phase
+- `praxis-flow-act`
 
-## Stage 2: Completed
+## Stage 3: Completed
 
 All Plans have finished execution. Document Outcomes and any artifacts produced.
 
 **Entry Paths:**
-- Plan performed in the Act phase
+- `praxis-flow-act`
 
-## Stage 3: Rejected
+**Exit Paths:**
+Cleared:
+- `praxis-clear`
+
+## Stage 4: Rejected
 
 Plan will not be performed.
 
 **Entry Paths:**
-- Plan rejected in the Discern phase
+- `praxis-prediction`
+- `praxis-discern`
 
+**Exit Paths:**
+Cleared:
+- `praxis-clear`
+
+## Stage 5: Bypassed
+
+A Plan for all Trivial complexity Tasks, bypassing planning prediction, and disernment
+
+**Entry Paths:**
+- `praxis-decompose`
+
+**Exit Paths:**
+Completed:
+- `praxis-flow-act`

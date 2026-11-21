@@ -1,14 +1,8 @@
 # Confidence Level Lifecycle
 
-Confidence follows two separate lifecycles simultaneously:
-* Promotion/Deletion
-* Subject Tracking
-
-## Level Promotion/Demotion Lifecycle
-
 Base rules for changing confidence levels of a subject.
 
-### Levels
+## Levels
 
 - None
 - Low
@@ -16,19 +10,25 @@ Base rules for changing confidence levels of a subject.
 - High
 - Complete
 
-### Level Flow
+## Level Flow
 
 State-machine grammar for this lifecycle:
 
-None -> Low
+```
 Low -> [ None | Medium ]
 Medium -> [ None | Low | High ]
 High -> [ Low | Medium | Complete ]
 Complete -> [ Medium | High ]
+```
 
-### Level 0: None
+## Level 0: None
 
-Lack of any confidence. Do not trust. Do not use. May be harmful.
+Do not trust. Do not use. Considered harmful.
+
+No confidence in benefit or usefulness; confidence in lack of benefit or usefulness
+Correlation with multiple harmful outcomes.
+Strong correlation with detrimental outcomes.
+Heavily contradicted by other domain items.
 
 **Entry Paths:**
 - Direct user statement
@@ -38,9 +38,14 @@ Lack of any confidence. Do not trust. Do not use. May be harmful.
 Low:
 - Revise subject based on new evidence
 
-### Level 1: Low
+## Level 1: Low
 
-Low confidence. Low use count, or has produced unexpected detrimental or harmful outcomes.
+Low confidence in benefit or usefulness.
+
+May correlate with both accurate and detrimental outcomes.
+May be directly contradicted by evidence.
+May have numerous contradictiory domain items.
+May have limited evidence.
 
 **Entry Paths:**
 - Subject newly created by the agent.
@@ -55,9 +60,13 @@ Medium:
 - repeated use without detrimental or harmful outcomes
 - user request
 
-### Level 2: Medium
+## Level 2: Medium
 
-Medium confidence. Used successfully across multiple cycles without harmful outcomes. Occasional failures noted but pattern is reliable.
+New or refined items with minimal information.
+Medium confidence in accurate or helpful outcomes.
+May correlate with accurate outcomes, occassional detrimental outcomes.
+Potential ambiguity or contradiction with other domain items.
+No correlated harmful outcomes.
 
 **Entry Paths:**
 - Subject newly created by the user.
@@ -74,9 +83,13 @@ High:
 - repeated use without any detrimental or harmful outcomes
 - user request or direct statement
 
-### Level 3: High
+## Level 3: High
 
-High confidence. consistent correct results across many cycles without any harmful or detrimental outcomes. Suitable for use without extra verification.
+Suitable for use without extra verification.
+
+Strong correlation with accurate outcomes.
+Correlation with multiple helpful outcomes.
+Low ambiguity with other domain items.
 
 **Entry Paths:**
 - repeated use without any unanticipated outcomes
@@ -92,9 +105,15 @@ Medium:
 Complete:
 - Numerous uses without any unanticipated outcomes
 
-### Level 4: Complete
+## Level 4: Complete
 
 Complete Confidence. Exhaustively verified with no known failure modes. Behavior is fully predictable. Reserved for items with extensive, consistent track records. Fewer confidence updates required.
+
+Long track record of a strong correlation with accurate or helpful outcomes. 
+No correlation with harmful outcomes.
+Minimal correlation with detrimental outcomes.
+Highly reinforced and reinforcing.
+Minimal contradictory domain items.
 
 **Entry Paths:**
 - numerous uses without any unanticipated outcomes
@@ -106,67 +125,3 @@ Medium:
 High:
 - Any unanticipated outcomes
 
-## Subject Tracking Lifecycle
-
-### Stages
-
-- Identified
-- Tracked
-- Trusted
-- Abandoned
-
-### Stage Flow
-
-State-machine grammar for this lifecycle:
-
-Identified -> Tracked
-Tracked -> [ Trusted | Abandoned ]
-Trusted -> Tracked
-
-### Stage 0: Identified
-
-Subject of confidence is identified (e.g. new tool/skill/belief).
-
-**Entry Paths:**
-- pattern recognition
-- user request direct user statement
-
-**Exit Paths:**
-Tracked:
-- subject added to `.praxis/tracking/confidence.md` and `.praxis/tracking/confidence-details.md`.
-
-### Stage 1: Tracked
-
-Confidence level of subject is being tracked.
-
-**Entry Paths:**
-- subject added to `.praxis/tracking/confidence.md` and `.praxis/tracking/confidence-details.md`.
-
-**Exit Paths:**
-Trusted:
-- subject has reached complete confidence
-Abandoned:
-- explicit user request
-
-### Stage 2: Trusted
-
-Subject has complete confidence. Less tracking required.
-
-**Entry Paths:**
-- subject has reached complete confidence
-
-**Exit Paths:**
-Tracked:
-- conditions or context has changed significantly
-- subject has changed confidence level
-- explicit user request
-
-### Stage 3: Abandoned
-
-Confidence level is no longer tracked.
-
-**Entry Paths:**
-- direct user statement
-
-**Exit Paths:**
-- subject removed from  `.praxis/tracking/confidence.md` and `.praxis/tracking/confidence-details.md`, and the change is committed to git.

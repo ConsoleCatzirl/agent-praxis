@@ -4,51 +4,66 @@ Tasks are created during the Decompose phase with the purpose and criteria for t
 
 ## Stages
 
-- Defined
+- Identified
 - Approved
 - Rejected
 - Completed
 
 ## Stage Flow
 
-Defined -> [ Approved | Rejected ]
-Approved -> Completed
+```
+New -> Identified
+Identified -> [ Approved | Rejected ]
+Approved -> [ Completed | Rejected ]
+[ Completed | Rejected ] -> Cleared
+```
 
-## Stage 0: Defined
+## Stage 0: Identified
 
 The Tasks for the Plan Actions are documented.
 
 **Entry Paths:**
-- Tasks created in Plan phase
+- `praxis-create-task`
 
 **Exit Paths:**
 Approved:
-- Discern phase approves the Tasks
+- `praxis-plan`
 Rejected:
-- Discern phase rejects the Tasks
+- `praxis-plan`
+- `praxis-predict`
 
 ## Stage 1: Approved
 
 The task is recorded and awaiting execution. Dependencies must be satisfied before moving to In Progress.
 
 **Entry Paths:**
-- Tasks approved in Discern phase
+- `praxis-plan`
+- `praxis-discern`
 
 **Exit Paths:**
 Completed:
-- Tasks performed in the Act phase
+- `praxis-flow-act`
+Rejected:
+- `praxis-discern`
 
 ## Stage 2: Completed
 
 All sub-tasks are finished. Document outcomes and any artifacts produced.
 
 **Entry Paths:**
-- Tasks performed in the Act phase
+- `praxis-flow-act`
+
+**Exit Paths:**
+- `praxis-clear`
 
 ## Stage 3: Rejected
 
 Tasks will not be performed.
 
 **Entry Paths:**
-- Tasks rejected in the Discern phase
+- `praxis-plan`
+- `praxis-predict`
+- `praxis-discern`
 
+**Exit Paths:**
+- `praxis-clear`
