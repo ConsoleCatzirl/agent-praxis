@@ -14,6 +14,16 @@ Domains of semantic understanding and epistemic commitment.
 * **Rules**: Required agent behavior (RFC 2119 MUST/NOT).
 * **Values**: Ideal qualities.
 
+## Naming
+
+The name of an item says what kind of commitment it holds, by its grammatical form, and what it must say, by its content; each domain's README states its own scheme in a `## Naming` section:
+
+* Belief: a generic present-tense indicative clause. Environment: a present-tense indicative clause about a particular thing. Expectation: a clause with a futurate or tendency verb.
+* Intention: a gerund phrase. Opinion: an evaluative or comparative clause. Value: an abstract noun.
+* Practice: an imperative. Principle: a nominalization. Rule: `X MUST Y` or `X SHOULD Y`.
+
+Items that express one idea at a different commitment share a stem, so that the link between them shows in their names: the value "Accurate Anticipation", the intention "Predicting Outcomes Accurately", the principle "Anticipation Before Action" and the practice "State Falsifiable Anticipated Outcomes".
+
 ## Lists of Domain Items
 
 For each domain, a list of domain items can be found at `.praxis/domains/${domain}.md`,
