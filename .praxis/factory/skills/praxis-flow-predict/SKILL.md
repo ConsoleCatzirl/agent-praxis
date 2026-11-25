@@ -1,5 +1,5 @@
 ---
-name: praxis-predict
+name: praxis-flow-predict
 description: Predict anticipated outcomes for the current Plan
 ---
 

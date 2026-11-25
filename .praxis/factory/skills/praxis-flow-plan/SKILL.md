@@ -1,5 +1,5 @@
 ---
-name: praxis-plan
+name: praxis-flow-plan
 description: Create a Plan for a list of Tasks
 ---
 

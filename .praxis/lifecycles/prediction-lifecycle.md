@@ -29,13 +29,13 @@ Approved -> Actualized
 Anticipated outcomes are documented in memory/predictions.md
 
 **Entry Paths:**
-- `praxis-predict`
+- `praxis-flow-predict`
 
 **Exit Paths:**
 Approved:
-- `praxis-discern`
+- `praxis-flow-discern`
 Rejected:
-- `praxis-discern`
+- `praxis-flow-discern`
 
 ## Stage 2: Rejected
 
@@ -43,18 +43,18 @@ Anticipated Outcomes are detrimental or harmful. No Actualized Outcomes.
 The Plan must not be performed.
 
 **Entry Paths:**
-- `praxis-discern`
+- `praxis-flow-discern`
 
 **Exit Paths:**
 Analyzed:
-- `praxis-analyze`
+- `praxis-flow-analyze`
 
 ## Stage 3: Approved
 
 This Prediction's Plan is approved and ready to be performed.
 
 **Entry Paths:**
-- `praxis-discern`
+- `praxis-flow-discern`
 
 **Exit Paths:**
 Actualized:
@@ -69,14 +69,14 @@ Actualized outcomes are documented in memory/predictions.md
 
 **Exit Paths:**
 Analyzed:
-- `praxis-analyzed`
+- `praxis-flow-analyze`
 
 ## Stage 5: Analyzed
 
 Anticipated and Actualized outcomes (or rejection reason) have been compared and learnings have been documented.
 
 **Entry Paths:**
-- `praxis-analyze`
+- `praxis-flow-analyze`
 
 **Exit Paths:**
 Cleared:
@@ -87,7 +87,7 @@ Cleared:
 A Plan for all Trivial complexity Tasks, bypassing planning prediction, and disernment
 
 **Entry Paths:**
-- `praxis-decompose`
+- `praxis-flow-decompose`
 
 **Exit Paths:**
 Cleared:

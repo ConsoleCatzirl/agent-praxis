@@ -46,14 +46,14 @@ Either a new skill, tool, or script  under `.praxis/incubator/`, or a new Patter
 
 ## Related Skills
 
-- praxis-entry
-- praxis-decompose
-- praxis-plan
-- praxis-predict
-- praxis-discern
+- praxis-flow-entry
+- praxis-flow-decompose
+- praxis-flow-plan
+- praxis-flow-predict
+- praxis-flow-discern
 - praxis-flow-act
-- praxis-analyze
-- praxis-learn
-- praxis-record
+- praxis-flow-analyze
+- praxis-flow-learn
+- praxis-flow-record
 
 ## Troubleshooting

@@ -23,7 +23,7 @@ Verify state domain items before continuing this praxis-flow iteration.
 ## Procedure
 
 1. Pattern: Verify Praxis State
-2. Skill: `praxis-clear-state`
+2. Skill: `praxis-flow-clear-state`
 
 ## Conditions for Revision
 

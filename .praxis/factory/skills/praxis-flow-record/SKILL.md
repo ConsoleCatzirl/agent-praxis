@@ -1,5 +1,5 @@
 ---
-name: praxis-record
+name: praxis-flow-record
 description: Record what we learned from our analysis
 ---
 

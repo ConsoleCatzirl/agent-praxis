@@ -25,21 +25,21 @@ Approved -> Completed
 A list of Plans are written that complete all Task criteria.
 
 **Entry Paths:**
-- `praxis-plan`
+- `praxis-flow-plan`
 
 **Exit Paths:**
 Approved:
-- `praxis-discern`
+- `praxis-flow-discern`
 Rejected:
-- `praxis-discern`
-- `praxis-prediction`
+- `praxis-flow-discern`
+- `praxis-flow-predict`
 
 ## Stage 2: Approved
 
 The Plan is recorded and awaiting execution.
 
 **Entry Paths:**
-- `praxis-discern`
+- `praxis-flow-discern`
 
 **Exit Paths:**
 Completed:
@@ -61,8 +61,8 @@ Cleared:
 Plan will not be performed.
 
 **Entry Paths:**
-- `praxis-prediction`
-- `praxis-discern`
+- `praxis-flow-predict`
+- `praxis-flow-discern`
 
 **Exit Paths:**
 Cleared:
@@ -73,7 +73,7 @@ Cleared:
 A Plan for all Trivial complexity Tasks, bypassing planning prediction, and disernment
 
 **Entry Paths:**
-- `praxis-decompose`
+- `praxis-flow-decompose`
 
 **Exit Paths:**
 Completed:

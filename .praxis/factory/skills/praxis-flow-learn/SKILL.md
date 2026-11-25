@@ -1,5 +1,5 @@
 ---
-name: praxis-learn
+name: praxis-flow-learn
 description: Learn from our outcome analysis
 ---
 

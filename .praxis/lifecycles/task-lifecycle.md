@@ -27,24 +27,24 @@ The Tasks for the Plan Actions are documented.
 
 **Exit Paths:**
 Approved:
-- `praxis-plan`
+- `praxis-flow-plan`
 Rejected:
-- `praxis-plan`
-- `praxis-predict`
+- `praxis-flow-plan`
+- `praxis-flow-predict`
 
 ## Stage 1: Approved
 
 The task is recorded and awaiting execution. Dependencies must be satisfied before moving to In Progress.
 
 **Entry Paths:**
-- `praxis-plan`
-- `praxis-discern`
+- `praxis-flow-plan`
+- `praxis-flow-discern`
 
 **Exit Paths:**
 Completed:
 - `praxis-flow-act`
 Rejected:
-- `praxis-discern`
+- `praxis-flow-discern`
 
 ## Stage 2: Completed
 
@@ -61,9 +61,9 @@ All sub-tasks are finished. Document outcomes and any artifacts produced.
 Tasks will not be performed.
 
 **Entry Paths:**
-- `praxis-plan`
-- `praxis-predict`
-- `praxis-discern`
+- `praxis-flow-plan`
+- `praxis-flow-predict`
+- `praxis-flow-discern`
 
 **Exit Paths:**
 - `praxis-clear`

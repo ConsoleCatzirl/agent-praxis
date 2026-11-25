@@ -1,5 +1,5 @@
 ---
-name: praxis-report
+name: praxis-flow-report
 description: Conversationally summarize Plans, Predictions, Analysis, and Learnings for this action
 ---
 

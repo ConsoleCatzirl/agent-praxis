@@ -23,18 +23,18 @@ Processed -> Cleared
 An analysis has been recorded.
 
 **Entry Paths:**
-- `praxis-analyze`
+- `praxis-flow-analyze`
 
 **Exit Paths:**
 Processed:
-- `praxis-learn`
+- `praxis-flow-learn`
 
 ## Stage 2: Processed
 
 Analysis updates have been applied.
 
 **Entry Paths:**
-- `praxis-learn`
+- `praxis-flow-learn`
 
 **Exit Paths:**
 Cleared:
@@ -45,8 +45,8 @@ Cleared:
 A Plan for all Trivial complexity Tasks, bypassing planning prediction, and disernment
 
 **Entry Paths:**
-- `praxis-decompose`
+- `praxis-flow-decompose`
 
 **Exit Paths:**
 Processed:
-- `praxis-learn`
+- `praxis-flow-learn`

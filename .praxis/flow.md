@@ -13,14 +13,14 @@ There are Phases, each with its own flow:
 
 Anticipate -> Act -> Reflect
 
-Use `praxis-entry` for entry or re-entry.
+Use `praxis-flow-entry` for entry or re-entry.
 
 ### Anticipate
 
-`praxis-decompose` ->  [ `praxis-plan` | Act | Reflect ]
-`praxis-plan` -> `praxis-predict`
-`praxis-predict` -> [ `praxis-plan` | `praxis-discern` ] 
-`praxis-discern` -> [ `praxis-plan` | Act | Reflect ]
+`praxis-flow-decompose` -> [ `praxis-flow-plan` | Act | Reflect ]
+`praxis-flow-plan` -> `praxis-flow-predict`
+`praxis-flow-predict` -> [ `praxis-flow-plan` | `praxis-flow-discern` ]
+`praxis-flow-discern` -> [ `praxis-flow-plan` | Act | Reflect ]
 
 ### Act
 
@@ -28,7 +28,15 @@ Use `praxis-entry` for entry or re-entry.
 
 ### Reflect
 
-`praxis-analyze` -> `praxis-learn` 
-`praxis-learn` -> `praxis-record`
-`praxis-record` -> `praxis-report`
-`praxis-report` -> End
+`praxis-flow-analyze` -> `praxis-flow-learn`
+`praxis-flow-learn` -> `praxis-flow-record`
+`praxis-flow-record` -> `praxis-flow-report`
+`praxis-flow-report` -> `praxis-flow-clear-state` -> End
+
+`praxis-flow-clear-state` is the last tool call of `praxis-flow-report`, after `praxis-flow-verify-state` confirms the iteration is complete.
+
+## Outside the Flow
+
+- `praxis-flow-introspect`: deep analysis across all runs, run as a Pattern inside a Plan.
+- `praxis-self-reflect`: ad-hoc self-assessment between `praxis-flow-learn` and `praxis-flow-introspect`.
+- `praxis-create-*`, `praxis-refine-*`, `praxis-promote-*`: create, change, and promote domain items and factory products (see `.praxis/domains/README.md` and `.praxis/factory/README.md`).

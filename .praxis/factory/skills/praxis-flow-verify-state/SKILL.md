@@ -1,5 +1,5 @@
 ---
-name: praxis-verify-state
+name: praxis-flow-verify-state
 description: Verify current praxis state
 ---
 

@@ -25,14 +25,14 @@ The Outcome has been Actualized and documented in `.praxis/state/outcomes.md`
 
 **Exit Paths:**
 Analyzed:
-- `praxis-analyze`
+- `praxis-flow-analyze`
 
 ## Stage 2: Analyzed
 
 The outcome has been analyzed.
 
 **Entry Paths:**
-- `praxis-analyze`
+- `praxis-flow-analyze`
 
 **Exit Paths:**
 Cleared:
@@ -43,7 +43,7 @@ Cleared:
 A Plan for all Trivial complexity Tasks, bypassing planning prediction, and disernment
 
 **Entry Paths:**
-- `praxis-decompose`
+- `praxis-flow-decompose`
 
 **Exit Paths:**
 Cleared:

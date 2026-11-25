@@ -1,5 +1,5 @@
 ---
-name: praxis-entry
+name: praxis-flow-entry
 description: Prompt entry-point for determing current Flow stage
 ---
 
@@ -26,16 +26,16 @@ User prompt and current state
 ## Procedure
 
 First match of:
-- If all current live state is empty, continue to `praxis-decompose`.
-- If all current live state is in its final status state and there are no uncommitted changes to `.praxis/`, then clear the state using `praxis-clear` and continue to `praxis-decompose`.
-- If the only defined state are Tasks, continue to `praxis-plan`.
-- If the only defined state are Tasks and Plans, continue to `praxis-predict`.
-- If the only defined state are Tasks, Plans, and Predictions, and at least one Prediction or Plan is neither Approved nor Rejected, then continue to `praxis-discern`.
+- If all current live state is empty, continue to `praxis-flow-decompose`.
+- If all current live state is in its final status state and there are no uncommitted changes to `.praxis/`, then clear the state using `praxis-clear` and continue to `praxis-flow-decompose`.
+- If the only defined state are Tasks, continue to `praxis-flow-plan`.
+- If the only defined state are Tasks and Plans, continue to `praxis-flow-predict`.
+- If the only defined state are Tasks, Plans, and Predictions, and at least one Prediction or Plan is neither Approved nor Rejected, then continue to `praxis-flow-discern`.
 - If at least one Plan is Approved and all other Plans are either Approved or Rejected, continue to `praxis-flow-act`.
-- If all Plans are Rejected, continue to `praxis-analyze`.
-- If all Plans have actualized Outcomes, continue to `praxis-analyze`.
-- If all actualized Plans and Outcomes have associated Analyses, continue to `praxis-learn`.
-- If all Analyses are Processed, continue to `praxis-record`.
+- If all Plans are Rejected, continue to `praxis-flow-analyze`.
+- If all Plans have actualized Outcomes, continue to `praxis-flow-analyze`.
+- If all actualized Plans and Outcomes have associated Analyses, continue to `praxis-flow-learn`.
+- If all Analyses are Processed, continue to `praxis-flow-record`.
 
 Any other cases should be evaluated case-by-case.
 

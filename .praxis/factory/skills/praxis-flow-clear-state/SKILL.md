@@ -1,5 +1,5 @@
 ---
-name: praxis-clear-state
+name: praxis-flow-clear-state
 description: Clear previous praxis state
 ---
 
