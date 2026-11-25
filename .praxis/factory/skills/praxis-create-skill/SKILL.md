@@ -49,7 +49,7 @@ A new skill directory under `.praxis/factory/skills/`, its list entry, a trackin
 - The directory name equals the frontmatter `name`, and the frontmatter `confidence` equals the tracking row.
 - No template section is left with its bracketed prompt, and the Output and Success Criteria belong to this skill.
 - The skill is not installed in `.claude/skills/<name>/`: it is installed only at its install level, by promotion (`.praxis/factory/skills/README.md`, "Installing a Skill").
-- If the skill implements a Pattern, the Pattern lists it, its `implements:` names the Pattern, and `complexitycheck.py` reports no finding.
+- If the skill implements a Pattern, the Pattern lists it, its `implements:` names the Pattern, and the skill's Complexity is the highest level of the products its steps name.
 
 ## Domain Alignment
 

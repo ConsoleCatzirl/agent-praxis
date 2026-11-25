@@ -19,7 +19,7 @@ Give a new kind of item a lifecycle that is a valid state machine, agrees with t
 When a Plan adds a kind of item with stages of its own (as introspections did), or splits a lifecycle in two. To change an existing lifecycle, edit it with Pattern: Propagate a Rule Through Documents instead.
 
 ## How it Works
-The judgement is the stages: what each means, which skill moves an item in and out, and which moves need evidence. The scripts `lifecyclecheck` and `statuscheck` check the result; scripts that hard-code lifecycles are changed through their own Tasks.
+The judgement is the stages: what each means, which skill moves an item in and out, and which moves need evidence. A check of the stages and the status words, by reading, tests the result; any scripts that hard-code lifecycles are changed through their own Tasks.
 
 ## Requirements
 The kind of item, where its items live, and the skills that create and change them (existing, or planned in the same Plan).
@@ -34,16 +34,16 @@ The lifecycle's name, the items it covers, and their stages.
 4. Write `.praxis/lifecycles/${name}-lifecycle.md` from the template: a paragraph saying what the items are and where they live; `## Stages`; `## Stage Flow`; and a `## Stage N: Name` section per stage, numbered from 1, with its description and its Entry Paths and Exit Paths. In a state lifecycle, each path names the skill that takes it in backticks (an existing skill directory in `.praxis/factory/skills/`), with its condition in parentheses; in a confidence lifecycle, each path is labelled with the confidence levels it allows, and the stage's `**Confidence:**` line lists them. Write who decided a rule and when, as the other lifecycles do.
 5. Add the lifecycle to `.praxis/lifecycles/README.md` under the section for its kind (Domain, Factory, State, Tracking), with a one-line description; add a section if none fits.
 6. Name it where its items are described: the README of the items' directory (for example `.praxis/tracking/README.md` or `.praxis/factory/<type>s/README.md`) and the skills that create and change the items.
-7. Run `python3 -I .praxis/factory/scripts/lifecyclecheck/lifecyclecheck.py` and `python3 -I .praxis/factory/scripts/statuscheck/statuscheck.py`; both must report 0 findings. A finding that names a skill that does not exist yet is expected only when that skill is created in the same Plan; commit only once it exists.
-8. Look for the scripts that must learn the lifecycle, and write a Task for each (`python3 -I .praxis/factory/scripts/state/state.py new task "<name>"`, through `praxis-refine-script`) rather than editing them here: `state.py` (`KINDS`, for items in `.praxis/state/`), `promote.py` (`ASSERTION`, `EVIDENCED`, `FACTORY`, for confidence lifecycles), `statuscheck.py` (`STATE`), and `hygiene.py` (each item's Status is a stage of its lifecycle). Search with `grep -rn "lifecycle" .praxis/factory/scripts/*/*.py` for any other.
+7. Check that every stage is reachable from New and can reach Cleared, that each Stages list equals its Stage Flow, and that the status phrases in skills name real stages; none may fail. A finding that names a skill that does not exist yet is expected only when that skill is created in the same Plan; commit only once it exists.
+8. Look for any script or check on the project that must learn the lifecycle (one that handles the items in `.praxis/state/`, one that moves confidence between stages, one that checks status words, or one that checks that each item's Status is a stage of its lifecycle), and write a Task for each rather than editing them here. Search the project's scripts for the word "lifecycle" for any other. A branch with no scripts has nothing to do in this step.
 9. Walk one item through the lifecycle from New to Cleared, naming the skill at each move, and fix any move that no skill takes.
-10. Stage the lifecycle and the README changes, run `python3 -I .praxis/factory/scripts/pre-commit-checks/pre-commit-checks.py`, and commit with `git -C .praxis` only when it passes.
+10. Stage the lifecycle and the README changes, check that the lifecycle and the README read correctly, and commit with `git -C .praxis` only when it passes.
 
 ## Output
 A lifecycle in `.praxis/lifecycles/`, listed in `.praxis/lifecycles/README.md` and named where its items are described; Tasks for the scripts that must learn it.
 
 ## Success Criteria
-- `lifecyclecheck` and `statuscheck` report 0 findings.
+- Every stage is reachable from New and can reach Cleared, each Stages list equals its Stage Flow, and no status phrase names a stage that does not exist.
 - Every stage has a meaning of its own and a skill that enters and leaves it; the walk reaches Cleared.
 - Each script that hard-codes lifecycles and must learn this one has a Task.
 
@@ -68,7 +68,7 @@ Unaligned
 ### Issue: A stage cannot reach Cleared
 
 Identifying:
-`lifecyclecheck` reports a stage that cannot reach Cleared.
+A stage cannot reach Cleared.
 
 Solution:
 Add the move that ends an item's life (often on the owner's word, with git keeping the item), or merge the stage into one that can.

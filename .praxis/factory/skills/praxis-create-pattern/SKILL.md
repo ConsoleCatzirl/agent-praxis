@@ -40,7 +40,7 @@ A short name (the file name is `${item-name}.md`, lowercase and hyphenated), the
    - **Hypothesized at Low** when the agent originates the item from a first observation or inference.
    - **Hypothesized at Medium** when the user states it directly.
    - Never start above Hypothesized: Evidenced and Established need independent supporting observations.
-5. Create `.praxis/factory/patterns/${item-name}.md` from the template (or run `python3 -I .praxis/factory/scripts/add-item/add-item.py ITEM.json`, which does this step and steps 7 and 8 after checking sections, stage, confidence, and alignment; see its docstring for the JSON). Set both timestamps with `date -Iseconds` (ISO-8601 with seconds and timezone), the Status to the stage and the Confidence to the level from step 4. Fill every section, in the template's order and with the template's headings:
+5. Create `.praxis/factory/patterns/${item-name}.md` from the template, checking that its sections, stage, confidence and alignment are filled and consistent. Set both timestamps with `date -Iseconds` (ISO-8601 with seconds and timezone), the Status to the stage and the Confidence to the level from step 4. Fill every section, in the template's order and with the template's headings:
    - **Description**: a detailed description of what the pattern does.
    - **Origin**: what led to creating the pattern (the Task, Plan, or runs where the sequence occurred).
    - **Context**: where the pattern occurs and should be used.
@@ -53,7 +53,7 @@ A short name (the file name is `${item-name}.md`, lowercase and hyphenated), the
 6. Check every item named under Domain Alignment: it must exist in `.praxis/domains/` or `.praxis/factory/`. Read the neighbors in the other domains for tension, and list any tension as Ambiguous or Contradictory (or Unaligned) instead of leaving it out. Do not resolve a contradiction between items by choosing one: record it and propose a dialectical synthesis to the user.
 7. Add the pattern to `.praxis/factory/patterns.md`, keeping the list in alphabetical order, linking to `.praxis/factory/patterns/${item-name}.md`, and replacing the template placeholder line if it is still there.
 8. Add a row to `.praxis/tracking/confidence/patterns.csv` with the columns `confidence,lifecycle,details,name`, using the starting confidence and lifecycle stage from step 4 and the file name of the item.
-9. Run `python3 -I .praxis/factory/scripts/checks/checks.py`: it must exit 0, with no check above its baseline for the new pattern (complexitycheck reports a Procedure step that names no product).
+9. Check the new pattern: its list entry, its template sections, its Status and Confidence and its alignment references all hold, every step of its Procedure names a product, and no check that passed before now fails.
 10. Look for other documents that already state or contradict this pattern: `grep -rn -i` for its key words and their neighbors (inflections, synonyms, field names) across `.praxis/` (`flow.md`, `CLAUDE.md`, `README.md`, `glossary.md`, `lifecycles/`, `templates/`, `domains/`, `factory/`, `tracking/`; leave `state/` and git history alone, since they record what was true then). Where another document restates the same idea, say it once in the new pattern and have the other point to it; where one contradicts it, list the contradiction under Domain Alignment instead of editing the other document silently.
 11. Commit the item, the list, the confidence table, and any pointer edits as one logical change with `git -C .praxis`, naming the pattern in the commit message.
 
@@ -66,7 +66,7 @@ A new pattern file in `.praxis/factory/patterns/`, its entry in `.praxis/factory
 - Every Domain Alignment reference resolves to an existing item.
 - A search for the pattern's key words finds no document that states it differently without being listed as a contradiction.
 - The starting stage and confidence are a legal entry path of `.praxis/lifecycles/evidenced-lifecycle.md`.
-- Every step of the Procedure names one factory product that exists, and none is written as prose (`complexitycheck.py` reports none).
+- Every step of the Procedure names one factory product that exists, and none is written as prose (read each step to check).
 - Running the skill again for the same name changes nothing.
 
 ## Domain Alignment
@@ -111,7 +111,7 @@ Do not delete the heading. Write that nothing applies and why, or reconsider whe
 ### Issue: A step has no factory product
 
 Identifying:
-A step of the Procedure would be written as prose, or `complexitycheck.py` reports a step that names no product.
+A step of the Procedure would be written as prose, or a step names no product.
 
 Solution:
 Do not write the prose into the Pattern. A mechanical step becomes a script (`praxis-create-script`); a step that needs judgement or instructions becomes a skill, new (`praxis-create-skill`) or an addition to an existing one (`praxis-refine-skill`). Then name that product in the step.
@@ -122,6 +122,6 @@ Do not write the prose into the Pattern. A mechanical step becomes a script (`pr
 
 2026-11-24 (third run, Plan Write the 0-evidence mechanism skills for template/semantic): used for its intent to write three Patterns, text only, Hypothesized at Low, on a clone of a template branch in that branch's older Pattern template; the steps naming workspace scripts were done by hand. Stays Low.
 
-2026-11-24 (fourth run, same Plan): used in this workspace; its step 5 names `add-item.py`, whose `--register` does not take a Pattern, so the list entry and row were written by hand (the script's JSON form was not tried). Stays Low.
+2026-11-24 (fourth run, same Plan): used in this workspace; its step 5 named the script that adds items, whose registering option does not take a Pattern, so the list entry and row were written by hand (the script's JSON form was not tried). Stays Low.
 
-2026-11-24 (fifth run, same Plan): used for 14 Patterns via `add-item.py --root` against a template branch; its row for the branch's table had the wrong columns and was rewritten, which a read of the branch's header before writing would have avoided. Stays Low.
+2026-11-24 (fifth run, same Plan): used for 14 Patterns with the script that adds items, against a template branch; its row for the branch's table had the wrong columns and was rewritten, which a read of the branch's header before writing would have avoided. Stays Low.

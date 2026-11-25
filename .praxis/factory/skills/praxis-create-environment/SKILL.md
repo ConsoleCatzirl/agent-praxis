@@ -39,7 +39,7 @@ A short name (the file name is `${item-name}.md`, lowercase and hyphenated), the
    - **Hypothesized at Low** when the agent originates the item from a first observation or inference.
    - **Hypothesized at Medium** when the user states it directly.
    - Never start above Hypothesized: Evidenced and Established need independent supporting observations.
-5. Create `.praxis/domains/environment/${item-name}.md` from the template (or run `python3 -I .praxis/factory/scripts/add-item/add-item.py ITEM.json`, which does this step and step 7 after checking sections, stage, confidence, and alignment; see its docstring for the JSON). Set both timestamps with `date -Iseconds` (ISO-8601 with seconds and timezone), the Status to the stage and the Confidence to the level from step 4. Fill every section, in the template's order and with the template's headings:
+5. Create `.praxis/domains/environment/${item-name}.md` from the template, checking that its sections, stage, confidence and alignment are filled and consistent. Set both timestamps with `date -Iseconds` (ISO-8601 with seconds and timezone), the Status to the stage and the Confidence to the level from step 4. Fill every section, in the template's order and with the template's headings:
    - **Statement**: one sentence of the form `P in/contains/possesses Q`.
    - **Basis**: the reasoning or rationale behind it.
    - **Bounds**: the contexts or conditions in which the condition stops applying.
@@ -49,7 +49,7 @@ A short name (the file name is `${item-name}.md`, lowercase and hyphenated), the
 6. Check every item named under Domain Alignment: it must exist in `.praxis/domains/` or `.praxis/factory/`. Read the neighbors in the other domains for tension, and list any tension as Ambiguous or Contradictory (or Unaligned) instead of leaving it out. Do not resolve a contradiction between items by choosing one: record it and propose a dialectical synthesis to the user.
 7. Add the environment to `.praxis/domains/environment.md`, keeping the list in alphabetical order, linking to `.praxis/domains/environment/${item-name}.md`, and replacing the template placeholder line if it is still there.
 8. No confidence table covers this domain; the confidence lives only in the item's file.
-9. Run `python3 -I .praxis/factory/scripts/checks/checks.py`: it must exit 0, with no check above its baseline (hygiene and tmplcheck, among its checks, cover the new environment).
+9. Check the new environment: its list entry, its template sections, its Status and Confidence and its alignment references all hold, and no check that passed before now fails.
 10. Look for other documents that already state or contradict this environment: `grep -rn -i` for its key words and their neighbors (inflections, synonyms, field names) across `.praxis/` (`flow.md`, `CLAUDE.md`, `README.md`, `glossary.md`, `lifecycles/`, `templates/`, `domains/`, `factory/`, `tracking/`; leave `state/` and git history alone, since they record what was true then). Where another document restates the same idea, say it once in the new environment and have the other point to it; where one contradicts it, list the contradiction under Domain Alignment instead of editing the other document silently.
 11. Commit the item, the list, and any pointer edits as one logical change with `git -C .praxis`, naming the environment in the commit message.
 

@@ -44,7 +44,7 @@ The pattern's name and the reason for the change, with any evidence.
 4. Edit the file. The Procedure stays general prose, with no paths or product names. If the change adds or removes an implementing skill, change the skill's frontmatter `implements:` to match (`praxis-refine-skill`, or `praxis-create-skill` for a new skill); the Pattern keeps at least one (Rule: Every Pattern MUST Be Implemented by at Least One Skill). Update the `modified` timestamp with `date -Iseconds`, leave `created` alone, and keep every template heading.
 5. If the change was a major revision of an item at Medium or higher, lower its confidence to what the lifecycle allows for a revised item (Low or Medium) unless the user directs otherwise.
 6. Re-check Domain Alignment: every referenced item must still exist, and re-read the items that mention this pattern in their own alignment. Update any that no longer agree, and record a new contradiction as a contradiction, not as a silent edit.
-7. Update the item's row in `.praxis/tracking/confidence/patterns.csv` (confidence,lifecycle,details,name) so it matches the file. When the confidence or stage changes, `python3 -I .praxis/factory/scripts/promote/promote.py` writes the file and the row together and refuses a move the lifecycles do not give.
+7. Update the item's row in `.praxis/tracking/confidence/patterns.csv` (confidence,lifecycle,details,name) so it matches the file. When the confidence or stage changes, change the file and the row together, and make only a move the lifecycles give.
 8. If the name changed, update the link in `.praxis/factory/patterns.md`.
 9. Propagate the change when it altered what the pattern says or what it is called (not for a pure typo). Do this by search, not by memory:
    1. State the change in one sentence, with who decided it and when.
@@ -53,8 +53,8 @@ The pattern's name and the reason for the change, with any evidence.
    4. Change each other document with an exact replacement that fails if the old text is not there, so a stale or already-changed document is noticed and not skipped.
    5. Search again for the old wording; the result is empty except where history is kept on purpose. List what remains and why.
    6. Walk a case through the changed text: take a real instance (this run's own state files, or a past case) and follow the new wording step by step. Fix what the walk finds.
-   7. Run `python3 -I .praxis/factory/scripts/checks/checks.py`: it must exit 0 (its complexitycheck reports a Procedure step that names no product).
-10. Stage the change and run `python3 -I .praxis/factory/scripts/pre-commit-checks/pre-commit-checks.py` (the checks and the staged scripts' tests that Pattern: Refine a Praxis Component requires before a commit); on a failure, fix the cause and run it again, and do not commit until it passes. Then commit the file, the confidence row and the propagation edits as one logical change per concern with `git -C .praxis`, giving the reason and who decided it in the message. Record in the Outcome which documents were changed and which were left on purpose. The commit carries the trailer of its kind: `Revision: breaking` for a major revision, `Revision: feature` for a minor one, and `Revision: fix` or none for a patch (`.praxis/glossary.md`, "Major revision").
+   7. Check that the list entry, template sections, statuses and alignment references still hold, that every Procedure step names a product, and that no check that passed before now fails.
+10. Stage the change and run the checks that Pattern: Refine a Praxis Component requires before a commit (the checks above and the tests of any staged script); on a failure, fix the cause and check again, and do not commit until it passes. Then commit the file, the confidence row and the propagation edits as one logical change per concern with `git -C .praxis`, giving the reason and who decided it in the message. Record in the Outcome which documents were changed and which were left on purpose. The commit carries the trailer of its kind: `Revision: breaking` for a major revision, `Revision: feature` for a minor one, and `Revision: fix` or none for a patch (`.praxis/glossary.md`, "Major revision").
 
 ## Output
 A revised pattern file, with its list entry, confidence row and neighbors consistent, and a commit.
@@ -64,7 +64,7 @@ A revised pattern file, with its list entry, confidence row and neighbors consis
 - Status and Confidence are a legal move in `.praxis/lifecycles/evidenced-lifecycle.md`.
 - `grep -rn` finds no reference to a name that no longer exists, and a search for the old wording finds only history.
 - A walked case follows the new wording without a gap.
-- Every step of the Procedure names one factory product that exists, and none is written as prose (`complexitycheck.py` reports none).
+- Every step of the Procedure names one factory product that exists, and none is written as prose (read each step to check).
 - The `modified` timestamp changed and `created` did not.
 
 ## Domain Alignment
@@ -126,7 +126,7 @@ Update the references in the same commit when they are mechanical; otherwise cre
 ### Issue: A step has no factory product
 
 Identifying:
-A changed step would be written as prose, or `complexitycheck.py` reports a step that names no product.
+A changed step would be written as prose, or a step names no product.
 
 Solution:
 Do not write the prose into the Pattern. A mechanical step becomes a script (`praxis-create-script`); a step that needs judgement or instructions becomes a skill, new (`praxis-create-skill`) or an addition to an existing one (`praxis-refine-skill`). Then name that product in the step.

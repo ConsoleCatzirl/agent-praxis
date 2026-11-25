@@ -31,13 +31,13 @@ The structural assessment has run in the same Plan, or its findings are known.
 - The definition sites: `.praxis/glossary.md`, `.praxis/flow.md`, `.praxis/README.md`, the READMEs of `domains/`, `factory/`, `state/`, `tracking/`, `lifecycles/`, `templates/`, and the `CLAUDE.md` of the workspace and of each project repository, and each lifecycle's Stages.
 
 ## Procedure
-1. **Retired terms** (Regex). Run `python3 -I .praxis/factory/scripts/termcheck/termcheck.py`: each use of a retired term (the names and words that renames replaced) is listed with its file and line; quotations of the owner and history files are reported apart.
+1. **Retired terms** (Regex). Search for each retired term (the names and words that renames replaced) and list each use with its file and line; report quotations of the owner and history files apart.
 2. **Definition sites** (Regex). From the same run, take the list of glossary terms with every other file that defines them (a `**Term**:` list entry, a `## Term` heading, a `Term:` line in a README).
-3. **Status words** (Mechanical). Run `python3 -I .praxis/factory/scripts/statuscheck/statuscheck.py`, then read the Requirements and Inputs sections of the Flow skills for status words (`Created`, `Proposed`, `Identified`, `Approved`, and the like) and check each against the lifecycle of the item it qualifies.
+3. **Status words** (Mechanical). Read the Requirements and Inputs sections of the Flow skills for status words (`Created`, `Proposed`, `Identified`, `Approved`, and the like) and check each against the lifecycle of the item it qualifies.
 4. **One meaning per term** (Qualitative). For each term with more than one definition site, compare the readings. Record each pair that differs, with both readings, which file owns the term (`praxis-assess-structure` step 8), and the reading to keep. Look in particular at the Phases, the Bypass, Complexity, the stage names shared by several lifecycles (Approved, Rejected, Completed, Cleared), Domain Alignment's two vocabularies (Reinforcing/Ambiguous/Contradictory and Aligned/Unaligned), and the use of "entry", "item", and "product".
-5. **Lifecycle graphs** (Structural). Run `python3 -I .praxis/factory/scripts/lifecyclecheck/lifecyclecheck.py` and keep its graph of each lifecycle.
-6. **Lifecycles make sense** (Qualitative). For each lifecycle, check against what the skills actually do: every stage is entered by some skill and left by some skill; no two stages mean the same; a terminal stage is really terminal; a stage named in prose is in the Stages list; the lifecycle's entry and exit skills are the ones that set the status (`state.py set` calls in the skills); and the lifecycle fits what it governs (for example, whether a Bypassed Plan is ever Completed, and whether a Task needs a stage between Approved and Completed). Propose the smallest change that makes each one fit.
-7. **Complexity: the max rule** (Structural). Run `python3 -I .praxis/factory/scripts/complexitycheck/complexitycheck.py`: each Pattern's Complexity equals the highest level of the products in its Procedure, each Plan's the highest of its Patterns, and the `complexity` columns of the tracking tables match the files.
+5. **Lifecycle graphs** (Structural). Draw the graph of each lifecycle from its Stage Flow and keep it.
+6. **Lifecycles make sense** (Qualitative). For each lifecycle, check against what the skills actually do: every stage is entered by some skill and left by some skill; no two stages mean the same; a terminal stage is really terminal; a stage named in prose is in the Stages list; the lifecycle's entry and exit skills are the ones that set the status (the calls in the skills that set a status); and the lifecycle fits what it governs (for example, whether a Bypassed Plan is ever Completed, and whether a Task needs a stage between Approved and Completed). Propose the smallest change that makes each one fit.
+7. **Complexity: the max rule** (Structural). Check that each Pattern's Complexity equals the highest level of the products in its Procedure, each Plan's the highest of its Patterns, and the `complexity` columns of the tracking tables match the files.
 8. **Complexity: the definitions** (Qualitative). For each product whose level the script cannot derive (a script's own label, a skill), compare it with the definitions in `.praxis/state/README.md` and `.praxis/factory/README.md`: a script that only uses globs and `sed` is Regex; glue of commands is Mechanical; one that needs data structures is Structural; a step that needs judgement is Qualitative and belongs in a skill. Record each level that does not fit, and each skill step that could move down a level (a candidate script).
 9. **Triage and record** (Qualitative). As in `praxis-assess-structure` step 10: kind (term, status word, lifecycle, complexity), evidence, strength, and application (fixed now / needs consent / report only). A rename of a retired term to its current name is mechanical; choosing between two live readings is not.
 
@@ -83,7 +83,7 @@ Do not pick one. Record both readings, which skills follow each, and a proposed 
 ### Issue: A retired term is inside a quotation or a history record
 
 Identifying:
-`termcheck.py` reports the match as quoted, or the file is a record of what was true then (git history, an Evidence Note, an Origin).
+The search finds the match as quoted, or the file is a record of what was true then (git history, an Evidence Note, an Origin).
 
 Solution:
 Leave it. Quotations and records keep their words.
