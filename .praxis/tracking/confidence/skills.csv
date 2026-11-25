@@ -1,1 +1,6 @@
 skill,model,effort,complexity,confidence,lifecycle,run-count
+praxis-create-habit,,,Qualitative,Low,Unstable,0
+praxis-create-introspection,,,Qualitative,Low,Unstable,0
+praxis-install-skill,,,Qualitative,Low,Unstable,0
+praxis-refine-habit,,,Qualitative,Low,Unstable,0
+praxis-refine-introspection,,,Qualitative,Low,Unstable,0
