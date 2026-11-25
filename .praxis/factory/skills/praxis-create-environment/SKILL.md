@@ -16,7 +16,7 @@ Initial Implementation
 Add an environment so that its file, its list entry, its alignment agree, and so that it starts at the confidence and stage its origin supports.
 
 ## When to Use
-When the user asks for an environment, or a Flow stage (usually `praxis-flow-learn`, `praxis-flow-introspect` or `praxis-self-reflect`) proposes one. Not for changing or removing an existing environment; use `praxis-refine-environment`.
+When the user asks for an environment, or a Flow stage (usually `praxis-flow-learn`, `praxis-flow-introspect` or `praxis-flow-self-review`) proposes one. Not for changing or removing an existing environment; use `praxis-refine-environment`.
 
 ## How it Works
 The skill checks that the name is new, picks the starting stage and confidence from the evidenced lifecycle's entry paths, writes the item from `.praxis/templates/environment-template.md`, aligns it with the items that already exist, and records it in the domain list. It then commits the result as one logical change.

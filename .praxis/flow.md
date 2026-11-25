@@ -38,5 +38,5 @@ Use `praxis-flow-entry` for entry or re-entry.
 ## Outside the Flow
 
 - `praxis-flow-introspect`: deep analysis across all runs, run as a Pattern inside a Plan.
-- `praxis-self-reflect`: ad-hoc self-assessment between `praxis-flow-learn` and `praxis-flow-introspect`.
+- `praxis-flow-self-review`: ad-hoc self-assessment between `praxis-flow-learn` and `praxis-flow-introspect`.
 - `praxis-create-*`, `praxis-refine-*`, `praxis-promote-*`: create, change, and promote domain items and factory products (see `.praxis/domains/README.md` and `.praxis/factory/README.md`).

@@ -78,7 +78,7 @@ None recorded yet; the lists are still being populated.
 - praxis-promote-evidenced
 - praxis-flow-learn
 - praxis-flow-introspect
-- praxis-self-reflect
+- praxis-flow-self-review
 
 ## Troubleshooting
 

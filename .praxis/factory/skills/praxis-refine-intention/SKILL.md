@@ -72,7 +72,7 @@ None recorded yet; the domain lists are still being populated.
 - praxis-promote-assertion
 - praxis-flow-learn
 - praxis-flow-introspect
-- praxis-self-reflect
+- praxis-flow-self-review
 
 ## Troubleshooting
 

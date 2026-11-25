@@ -40,6 +40,7 @@ A full list of skills in alphabetical order, with links to files with additional
 * [praxis-flow-predict](.praxis/factory/skills/praxis-flow-predict/SKILL.md)
 * [praxis-flow-record](.praxis/factory/skills/praxis-flow-record/SKILL.md)
 * [praxis-flow-report](.praxis/factory/skills/praxis-flow-report/SKILL.md)
+* [praxis-flow-self-review](.praxis/factory/skills/praxis-flow-self-review/SKILL.md)
 * [praxis-flow-verify-state](.praxis/factory/skills/praxis-flow-verify-state/SKILL.md)
 * [praxis-install-skill](.praxis/factory/skills/praxis-install-skill/SKILL.md)
 * [praxis-promote-assertion](.praxis/factory/skills/praxis-promote-assertion/SKILL.md)
@@ -63,4 +64,3 @@ A full list of skills in alphabetical order, with links to files with additional
 * [praxis-refine-skill](.praxis/factory/skills/praxis-refine-skill/SKILL.md)
 * [praxis-refine-tool](.praxis/factory/skills/praxis-refine-tool/SKILL.md)
 * [praxis-refine-value](.praxis/factory/skills/praxis-refine-value/SKILL.md)
-* [praxis-self-reflect](.praxis/factory/skills/praxis-self-reflect/SKILL.md)

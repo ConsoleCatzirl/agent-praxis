@@ -16,7 +16,7 @@ Taken from the workspace's skill of the same name, without its run evidence; no 
 Find Patterns, skill candidates, Signals, confidence changes, contradictions, and domain updates that only show up in the history of tracking, the domains, the factory, and past runs.
 
 ## When to Use
-When the user asks for introspection, or after several Flow runs have been recorded since the last one. It is not part of every run; for a lighter, ad-hoc assessment use `praxis-self-reflect`. Run it as a Pattern inside a Plan so that it passes through Predict, Discern, and Reflect like other work.
+When the user asks for introspection, or after several Flow runs have been recorded since the last one. It is not part of every run; for a lighter, ad-hoc assessment use `praxis-flow-self-review`. Run it as a Pattern inside a Plan so that it passes through Predict, Discern, and Reflect like other work.
 
 ## How it Works
 `praxis-flow-learn` reviews the Analyses of the current run. This skill reviews the record of all runs: the confidence tables, signals, domain items, factory products, and the git history of `.praxis/`, including the state of earlier runs as it was committed before each `Clear state` commit. It also holds itself to account: it scores the forecasts the last introspection made, compares what the owner had to point out with what the runs' own Analyses caught, and ends with forecasts of its own for the next introspection to score. It grades each finding by the strength of its evidence, separates what can be written to tracking now from what needs the user's consent, and never changes a domain item or promotes a factory product itself.
@@ -77,7 +77,7 @@ None recorded yet; the domain lists are still being populated.
 
 ## Related Skills
 
-- praxis-self-reflect
+- praxis-flow-self-review
 - praxis-flow-learn
 - `.praxis/factory/skills/praxis-create-introspection/SKILL.md` and `.praxis/factory/skills/praxis-refine-introspection/SKILL.md` (uninstalled, named by path)
 - praxis-flow-analyze

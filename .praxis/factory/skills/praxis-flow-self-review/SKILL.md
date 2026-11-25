@@ -1,11 +1,11 @@
 ---
-name: praxis-self-reflect
+name: praxis-flow-self-review
 description: Ad-hoc self-assessment of the agent's recent behavior against the domains, the Flow, and recent Outcomes, at a depth between praxis-flow-learn and praxis-flow-introspect. Use when the user asks the agent to reflect, or after a surprise, correction, or harmful outcome that should not wait for the next learn or introspection.
 confidence: Low
 complexity: Qualitative
 ---
 
-# Skill: Praxis Self-Reflect
+# Skill: Praxis Flow Self-Review
 
 Assess the agent's own recent behavior, on request or after something notable, without a full history sweep.
 
