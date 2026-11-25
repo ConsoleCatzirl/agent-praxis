@@ -30,6 +30,7 @@ This lifecycle is created from the template at `.praxis/templates/confidence-lif
 and cover the items in `.praxis/factory/`.
 
 * [Factory Lifecycle](factory-lifecycle.md)
+* [Install Lifecycle](install-lifecycle.md)
 
 ## State Lifecycles
 
@@ -42,3 +43,8 @@ and cover the items in `.praxis/state/`.
 * [Outcome Lifecycle](outcome-lifecycle.md)
 * [Analysis Lifecycle](analysis-lifecycle.md)
 
+## Tracking Lifecycles
+
+This lifecycle covers the items in `.praxis/tracking/introspections/`.
+
+* [Introspection Lifecycle](introspection-lifecycle.md)

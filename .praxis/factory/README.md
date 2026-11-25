@@ -5,6 +5,7 @@ Create scripts, skills, hooks, tools, agents, and patterns to connect them; trac
 ## List of Factory Product Types
 
 - **Agent**: Custom agent definitions.
+- **Habits**: Repeatable sequences of scripts, hooks, tools or other habits.
 - **Hooks**: Custom hook definitions.
 - **Patterns**: Pattern definitions, connecting other products together.
 - **Scripts**: Custom script definitions.
@@ -13,7 +14,7 @@ Create scripts, skills, hooks, tools, agents, and patterns to connect them; trac
 
 ## List of Factory Products
 
-A list of each product can be found in `.praxis/factory/${type}/README.md`.
+A list of each product can be found in `.praxis/factory/${type}.md`, and what is installed in `.praxis/factory/installs.yaml`.
 
 ## Factory Product Lifecycles
 

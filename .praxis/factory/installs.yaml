@@ -1,0 +1,3 @@
+# What is installed, and where (path relative to the workspace). Kept by hand; a skill moves to .claude/skills/<name>/ only when the install lifecycle says so.
+skills: {}
+agents: {}
