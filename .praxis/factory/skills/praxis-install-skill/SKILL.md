@@ -43,7 +43,7 @@ The skill's directory at its new location, `installs.yaml` updated, and a commit
 ## Domain Alignment
 
 Aligned
-- none known
+- Rule: Praxis Records MUST Conform to Their Templates and Lifecycles
 
 Unaligned
 - none known

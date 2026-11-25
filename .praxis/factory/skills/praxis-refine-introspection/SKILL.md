@@ -41,7 +41,7 @@ Scores written into the items, items moved to Scored when final, and the scores 
 ## Domain Alignment
 
 Aligned
-- none known
+- Rule: Praxis Records MUST Conform to Their Templates and Lifecycles
 
 Unaligned
 - none known

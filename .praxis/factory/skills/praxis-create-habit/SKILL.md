@@ -45,7 +45,7 @@ A new habit under `.praxis/factory/habits/`, its list entry and tracking row, th
 ## Domain Alignment
 
 Aligned
-- none known
+- Rule: Praxis Records MUST Conform to Their Templates and Lifecycles
 
 Unaligned
 - none known

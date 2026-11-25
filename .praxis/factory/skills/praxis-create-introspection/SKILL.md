@@ -42,7 +42,7 @@ A Recorded item in `.praxis/tracking/introspections/` and its entry in `.praxis/
 ## Domain Alignment
 
 Aligned
-- none known
+- Rule: Praxis Records MUST Conform to Their Templates and Lifecycles
 
 Unaligned
 - none known
