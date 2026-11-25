@@ -1,6 +1,6 @@
-# Praxis Flow
+# Praxis
 
-A process for planning our actions, reflecting on them, and improving behavior.
+The directory structure of `.praxis/`, the base directory for everything related to the Praxis Flow. The same text is in the root `README.md`.
 
 ## Directory Structure
 
@@ -10,19 +10,16 @@ A process for planning our actions, reflecting on them, and improving behavior.
 
 `.praxis/glossary.md`: Definitions for key Praxis Flow terms
 
-`.praxis/guiding/`: Guiding Domains; all entries SHOULD be adhered to at all times
+`.praxis/domains/`: Domains of items (beliefs, environment, expectations, intentions, opinions, practices, principles, rules, values); Asserted items are enforced
 
-`.praxis/incubator/`: Incubating skills, scripts, and tools
+`.praxis/factory/`: The Factory: agents, habits, hooks, patterns, scripts, skills, and tools, with their READMEs and lists
+
+`.praxis/factory/skills/`: All skills, including the Flow skills (`praxis-flow-*`); an installed skill is moved to `.claude/skills/` and recorded in `.praxis/factory/installs.yaml`
 
 `.praxis/lifecycles/`: State-machine grammars for each component
 
-`.praxis/skills/`: Skills that have been promoted out of incubation (default location)
-
 `.praxis/state/`: State tracking for each run through the Praxis Flow
-
-`.praxis/tracking/`: State tracking for the quality of the incubator, domains, and the Praxis Flow itself
-
-`.praxis/steering/`: Steering Domains, all entries MUST be adhered to at all times
 
 `.praxis/templates/`: Templates for all aspects of the Praxis Flow
 
+`.praxis/tracking/`: Confidence tables, Signals, and introspections (`introspections.md` and `introspections/`) for the quality of the domains, the factory, and the Praxis Flow itself
