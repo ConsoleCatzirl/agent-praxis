@@ -3,8 +3,6 @@ name: praxis-assess-semantics
 description: Assess the meaning of the Praxis records - each defined term has one meaning wherever it is used, each lifecycle makes sense for what it governs, and each complexity level is right. Use when the user asks for a semantic assessment, during introspection, or after terms or lifecycles were renamed or restructured.
 confidence: Low
 complexity: Qualitative
-implements:
-  - Assess Semantics
 ---
 
 # Skill: Praxis Assess Semantics
@@ -12,13 +10,13 @@ implements:
 Check that the words the Flow runs on mean one thing, that its state machines describe what the skills actually do, and that complexity levels say what they claim.
 
 ## Origin
-The deep introspection of 2026-11-21 (the owner: "semantic assessment (consistent meanings, do the lifecycles make sense?, are complexity levels correct?)"). At its Plan the Phases were named three ways (`flow.md`: Anticipate, Act, Reflect; the glossary: Anticipate, Act, Reflect with Decompose and Plan inside Anticipate; `.praxis/CLAUDE.md`: Plan, Anticipate, Act, Reflect, Return), and the Patterns Add Domain Entry and Track Confidence were Structural although each names a skill.
+The deep introspection of 2026-11-21 (the owner: "semantic assessment (consistent meanings, do the lifecycles make sense?, are complexity levels correct?)"). At its Plan the Phases were named three ways (`flow.md`: Anticipate, Act, Reflect; the glossary: Anticipate, Act, Reflect with Decompose and Plan inside Anticipate; `.praxis/CLAUDE.md`: Plan, Anticipate, Act, Reflect, Return), and two Patterns were Structural although each names a skill.
 
 ## Purpose
 Find terms with more than one meaning, lifecycles whose stages or paths do not match their use, and complexity levels that break their definitions, and propose one reading for each.
 
 ## When to Use
-When the user asks for a semantic assessment; during `praxis-flow-introspect`; after a rename, a restructure, or a change to a lifecycle. Run it as a Pattern (Assess Semantics) inside a Plan, after Assess Structure (broken references make meanings hard to read).
+When the user asks for a semantic assessment; during `praxis-flow-introspect`; after a rename, a restructure, or a change to a lifecycle. Run it inside a Plan, after `praxis-assess-structure` (broken references make meanings hard to read).
 
 ## How it Works
 Scripts find where terms are defined and used, which retired terms are still in use, and where complexity levels break the max rule; this skill compares the readings and judges whether lifecycles and levels make sense. Each step is labelled with its complexity level.

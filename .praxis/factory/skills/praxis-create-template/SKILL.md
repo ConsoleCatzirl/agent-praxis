@@ -16,7 +16,7 @@ The owner, 2026-11-22: "create skills for creating lifecycles and templates", af
 Give a new kind of item a template that the scripts can check and the skills can fill, so every item of the kind has the same headings and fields.
 
 ## When to Use
-When a Plan adds a kind of item (a state item, a tracking record, a domain, a factory product type). To change an existing template, edit it with Pattern: Propagate a Rule Through Documents and check the items it governs.
+When a Plan adds a kind of item (a state item, a tracking record, a domain, a factory product type). To change an existing template, edit it, and check every item it governs.
 
 ## How it Works
 The judgement is the fields and headings the items need and their order. Items are checked against templates by reading them; a whole-line `[ ... ]` marks an unfilled placeholder, so the template's form decides what can be seen as unfilled.

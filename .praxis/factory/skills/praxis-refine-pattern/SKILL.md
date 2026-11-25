@@ -4,7 +4,6 @@ description: Revise an existing pattern in `.praxis/factory/patterns/`, keeping 
 confidence: Low
 complexity: Qualitative
 implements:
-  - Propagate a Rule Through Documents
   - Refine a Praxis Component
 ---
 

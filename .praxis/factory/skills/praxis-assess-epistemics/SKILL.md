@@ -3,8 +3,6 @@ name: praxis-assess-epistemics
 description: Assess the epistemic commitments of the domains and the factory - each domain item is in the domain its content fits, ambiguities and contradictions are found (within and between domains, and between the domain items and the commitments of the project repositories), and each factory product aligns with the domain items it claims. Use when the user asks for an epistemic assessment, during introspection, or after many domain changes.
 confidence: Low
 complexity: Qualitative
-implements:
-  - Assess Epistemics
 ---
 
 # Skill: Praxis Assess Epistemics
@@ -18,7 +16,7 @@ The deep introspection of 2026-11-21 (the owner: "epistemic assessment (are doma
 Propose better domains for misfiled items, state each ambiguity and contradiction (a contradiction between Asserted items as thesis, antithesis, and synthesis), and list where the factory and the domains disagree.
 
 ## When to Use
-When the user asks for an epistemic assessment; during `praxis-flow-introspect`; after a carry-over or many domain changes. Run it as a Pattern (Assess Epistemics) inside a Plan, after Assess Structure and Assess Semantics (misread terms make false contradictions).
+When the user asks for an epistemic assessment; during `praxis-flow-introspect`; after a carry-over or many domain changes. Run it inside a Plan, after `praxis-assess-structure` and `praxis-assess-semantics` (misread terms make false contradictions).
 
 ## How it Works
 Scripts produce candidate lists (items whose wording does not fit their domain's markers; the alignment graph with its asymmetries and unclaimed Asserted items); this skill reads the candidates and the sources and judges. Nearly every step here is Qualitative; the scripts only narrow what to read.

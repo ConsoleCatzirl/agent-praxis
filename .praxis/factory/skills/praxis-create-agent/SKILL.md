@@ -40,8 +40,8 @@ The purpose of the agent, a short name (lowercase, hyphenated, prefixed `praxis-
 8. Grant the fewest tools the responsibility needs. Prefer read-only tools; an agent that writes needs a stated reason.
 9. Write the agent definition as `.praxis/factory/agents/${agent}/${agent}.md` with Claude Code agent frontmatter (`name`, `description`, `tools`, `model`) and a prompt that states the inputs it receives, the output format it returns, and what it must not do.
 10. Write `.praxis/factory/agents/${agent}/README.md` from `.praxis/templates/factory-product-template.md`: purpose, origin, model and effort, tools and why, input and output contract, and conditions for revision.
-11. Register the agent with the `add-item` script of the workspace (not on this branch: do the step by hand): it adds the agent to `.praxis/factory/agents.md` in alphabetical order, linking to its README, and a row to `.praxis/tracking/confidence/agents.csv` (`agent,model,effort,confidence,lifecycle,…,current-plan-count,total-plan-count,version`) at `Unstable`, `Low`, plan counts `0` and revision count `1`. Then fill in the model and effort in the row.
-12. Install it with the `install` script of the workspace (not on this branch: do the step by hand) and set `installed` to `Installed` in its row: agents are installed from Low, a standing exception of the owner's (`.praxis/lifecycles/install-lifecycle.md`).
+11. Register the agent: add the agent to `.praxis/factory/agents.md` in alphabetical order, linking to its README, and a row to `.praxis/tracking/confidence/agents.csv` (`agent,model,effort,confidence,lifecycle,…,current-plan-count,total-plan-count,version`) at `Unstable`, `Low`, plan counts `0` and revision count `1`. Then fill in the model and effort in the row.
+12. Install it as the install lifecycle describes, and set `installed` to `Installed` in its row: agents are installed from Low, a standing exception of the owner's (`.praxis/lifecycles/install-lifecycle.md`).
 13. Commit the agent's README, the list, `installs.yaml`, and the table row as one logical change with `git`, and the installed file in `.claude/agents/<name>.md` in the workspace repository.
 
 ## Output

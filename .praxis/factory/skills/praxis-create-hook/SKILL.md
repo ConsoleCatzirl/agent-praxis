@@ -40,7 +40,7 @@ The purpose of the hook, a short name (lowercase, hyphenated, prefixed `praxis-`
 8. Make it fail open: a crash, a missing file, or malformed input must not block the user's work unless blocking is the point of the hook.
 9. Test it by piping at least one allowing, one blocking, and one malformed event into it, and record the commands and results.
 10. Write `.praxis/factory/hooks/${hook}/README.md` from `.praxis/templates/factory-product-template.md`: event, matcher, purpose, exit-code behavior, tests, and conditions for revision.
-11. Register the hook with the `add-item` script of the workspace (not on this branch: do the step by hand): it adds the hook to `.praxis/factory/hooks.md` in alphabetical order, linking to its README, and a row to `.praxis/tracking/confidence/hooks.csv` (`hook,confidence,lifecycle,…,current-plan-count,total-plan-count,version`) at `Unstable`, `Low`, plan counts `0` and revision count `1`.
+11. Register the hook: add the hook to `.praxis/factory/hooks.md` in alphabetical order, linking to its README, and a row to `.praxis/tracking/confidence/hooks.csv` (`hook,confidence,lifecycle,…,current-plan-count,total-plan-count,version`) at `Unstable`, `Low`, plan counts `0` and revision count `1`.
 12. Commit the hook, its README, the list, and the table row as one logical change with `git`.
 
 ## Output

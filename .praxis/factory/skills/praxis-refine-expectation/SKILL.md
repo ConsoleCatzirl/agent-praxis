@@ -41,7 +41,7 @@ The expectation's name and the reason for the change, with any evidence.
 4. Edit the file. Update the `modified` timestamp with `date -Iseconds`, leave `created` alone, and keep every template heading.
 5. If the change was a major revision of an item at Medium or higher, lower its confidence to what the lifecycle allows for a revised item (Low or Medium) unless the user directs otherwise.
 6. Re-check Domain Alignment: every referenced item must still exist, and re-read the items that mention this expectation in their own alignment. Update any that no longer agree, and record a new contradiction as a contradiction, not as a silent edit.
-7. Update the item's row in `.praxis/tracking/confidence/expectations.csv` (confidence,lifecycle,details,name) so it matches the file. When the confidence or stage changes, the `promote` script of the workspace (not on this branch: do the step by hand) writes the file and the row together and refuses a move the lifecycles do not give.
+7. Update the item's row in `.praxis/tracking/confidence/expectations.csv` (confidence,lifecycle,details,name) so it matches the file. When the confidence or stage changes, change the file and the row together, and make only a move the lifecycles give.
 8. If the name changed, update the link in `.praxis/domains/expectations.md`.
 9. Propagate the change when it altered what the expectation says or what it is called (not for a pure typo). Do this by search, not by memory:
    1. State the change in one sentence, with who decided it and when.
@@ -50,7 +50,7 @@ The expectation's name and the reason for the change, with any evidence.
    4. Change each other document with an exact replacement that fails if the old text is not there, so a stale or already-changed document is noticed and not skipped.
    5. Search again for the old wording; the result is empty except where history is kept on purpose. List what remains and why.
    6. Walk a case through the changed text: take a real instance (this run's own state files, or a past case) and follow the new wording step by step. Fix what the walk finds.
-   7. Run the `checks` script of the workspace (not on this branch: do the step by hand): it must exit 0 (hygiene, tmplcheck and statuscheck are among its checks).
+   7. Check that the list entry, template sections, statuses and alignment references still hold, and that no check that passed before now fails.
 10. Commit the file, the confidence row and the propagation edits as one logical change per concern with `git`, giving the reason and who decided it in the message. Record in the Outcome which documents were changed and which were left on purpose.
 
 ## Output

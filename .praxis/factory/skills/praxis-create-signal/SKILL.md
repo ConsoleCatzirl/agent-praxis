@@ -3,8 +3,6 @@ name: praxis-create-signal
 description: Add a Signal to `.praxis/tracking/signals/`, or revise one, from the signal template, and list it in `.praxis/tracking/signals.md`. Use when a reflection, introspection or Learn finds a part of the Flow that no Signal measures, or a Signal that measures it badly.
 confidence: Low
 complexity: Qualitative
-implements:
-  - Add or Refine a Signal
 ---
 
 # Skill: Praxis Create Signal
@@ -12,13 +10,13 @@ implements:
 Write the file of a Signal (a calibration or self-evaluation metric for the Flow) and its list entry, so that its metric is stated in a way a script can compute.
 
 ## Origin
-Pattern: Add or Refine a Signal, whose first step was prose done by the agent (the pattern's own note called it a candidate skill). Written on 2026-11-22 so that every step of a Pattern names a factory product (Rule: Every Pattern Step MUST Name a Factory Product).
+Adding or changing a Signal was prose done by the agent, with no skill to do it. Written on 2026-11-22 so that every step of a Pattern names a factory product.
 
 ## Purpose
 Keep each Signal one file with the template's sections, a metric that can be computed, and one entry in the list, so that the script that computes the Signals and `praxis-flow-learn` can read and fill it.
 
 ## When to Use
-When a reflection, introspection or Learn finds a part of the Flow that no Signal measures, or a Signal that measures it badly. Run it as the first step of Pattern: Add or Refine a Signal. Not for recording a Signal's values: `praxis-flow-learn` writes those.
+When a reflection, introspection or Learn finds a part of the Flow that no Signal measures, or a Signal that measures it badly. Run it as the first step of adding or changing a Signal. Not for recording a Signal's values: `praxis-flow-learn` writes those.
 
 ## How it Works
 The skill checks whether the Signal exists, writes or revises its file from `.praxis/templates/signal-template.md` with a Metric a script can compute, and adds or updates its entry in `.praxis/tracking/signals.md`. The Pattern's next steps extend the script that computes the Signals (or, where there is none, a step of `praxis-flow-learn`) to compute the metric and check the result.

@@ -46,7 +46,7 @@ Something to reflect on: state in `.praxis/state/`, a recent conversation, or co
    - **Note only**: too weak to act on.
 9. Report the result to the user briefly, leading with what the agent got wrong or is unsure of. If the reflection happens inside a Plan, record it as that Plan's Outcome.
 
-10. Check the facts of the steps above with the habit the habit of reading the run history (not on this branch: read the history by hand) (recent runs, and the owner's prompts and side questions since the window's start) and the script the `checks` script of the workspace (not on this branch: do the step by hand) (conformance).
+10. Check the facts of the steps above by reading the run history (recent runs, and the owner's prompts and side questions since the window's start) and by checking conformance.
 
 ## Output
 A short self-assessment: the window, the findings with evidence and strength, and the triage. Written to the Outcome when run inside a Plan, otherwise given to the user. No domain item is changed.

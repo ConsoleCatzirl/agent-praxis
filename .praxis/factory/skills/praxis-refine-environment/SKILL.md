@@ -3,8 +3,6 @@ name: praxis-refine-environment
 description: Revise an existing environment in `.praxis/domains/environment/`, keeping its file, list entry, alignment, lifecycle, and every document that states it consistent, and commit the change. Use when an environment needs new wording, new evidence, a changed confidence, or to be abandoned.
 confidence: Low
 complexity: Qualitative
-implements:
-  - Propagate a Rule Through Documents
 ---
 
 # Skill: Praxis Refine Environment

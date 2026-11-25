@@ -49,7 +49,7 @@ The opinion's name and the reason for the change, with any evidence.
    4. Change each other document with an exact replacement that fails if the old text is not there, so a stale or already-changed document is noticed and not skipped.
    5. Search again for the old wording; the result is empty except where history is kept on purpose. List what remains and why.
    6. Walk a case through the changed text: take a real instance (this run's own state files, or a past case) and follow the new wording step by step. Fix what the walk finds.
-   7. Run the `checks` script of the workspace (not on this branch: do the step by hand): it must exit 0 (hygiene, tmplcheck and statuscheck are among its checks).
+   7. Check that the list entry, template sections, statuses and alignment references still hold, and that no check that passed before now fails.
 10. Commit the file and the propagation edits as one logical change per concern with `git`, giving the reason and who decided it in the message. Record in the Outcome which documents were changed and which were left on purpose.
 
 ## Output

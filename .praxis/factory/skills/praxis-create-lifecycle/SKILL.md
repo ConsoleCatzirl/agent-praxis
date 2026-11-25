@@ -16,7 +16,7 @@ The owner, 2026-11-22: "create skills for creating lifecycles and templates", af
 Give a new kind of item a lifecycle that is a valid state machine, agrees with the skills that move items through it, and is known to the scripts and documents that read lifecycles.
 
 ## When to Use
-When a Plan adds a kind of item with stages of its own (as introspections did), or splits a lifecycle in two. To change an existing lifecycle, edit it with Pattern: Propagate a Rule Through Documents instead.
+When a Plan adds a kind of item with stages of its own (as introspections did), or splits a lifecycle in two. To change an existing lifecycle, edit it, and every document that states its stages, instead.
 
 ## How it Works
 The judgement is the stages: what each means, which skill moves an item in and out, and which moves need evidence. A check of the stages and the status words, by reading, tests the result; any scripts that hard-code lifecycles are changed through their own Tasks.

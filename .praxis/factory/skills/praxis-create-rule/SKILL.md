@@ -37,7 +37,7 @@ A short name of the form `X V Y` (V is MUST, MUST NOT, SHOULD or SHOULD NOT; the
    - **Proposed at Low** when the agent originates the item (pattern recognition, an indirect user statement).
    - **Proposed at Medium** when the user states it with uncertainty, or the item has had a major revision.
    - **Asserted at High** only on a direct user statement. Complete is never a starting level.
-5. Create `.praxis/domains/rules/${item-name}.md` from the template (or run the `add-item` script of the workspace (not on this branch: do the step by hand), which does this step and step 7 after checking sections, stage, confidence, and alignment; see its docstring for the JSON). Set both timestamps with `date -Iseconds` (ISO-8601 with seconds and timezone), the Status to the stage and the Confidence to the level from step 4. Fill every section, in the template's order and with the template's headings:
+5. Create `.praxis/domains/rules/${item-name}.md` from the template, checking that its sections, stage, confidence and alignment are filled and consistent. Set both timestamps with `date -Iseconds` (ISO-8601 with seconds and timezone), the Status to the stage and the Confidence to the level from step 4. Fill every section, in the template's order and with the template's headings:
    - **Description**: one statement of the form `P [MUST | SHOULD] [NOT] Q`, with the RFC 2119 keyword in capitals.
    - **Protection**: what the rule protects and how it is safeguarded in practice.
    - **Violation**: what it looks like, and what happens, when the rule is not met.
@@ -47,7 +47,7 @@ A short name of the form `X V Y` (V is MUST, MUST NOT, SHOULD or SHOULD NOT; the
 6. Check every item named under Domain Alignment: it must exist in `.praxis/domains/` or `.praxis/factory/`. Read the neighbors in the other domains for tension, and list any tension as Ambiguous or Contradictory (or Unaligned) instead of leaving it out. Do not resolve a contradiction between items by choosing one: record it and propose a dialectical synthesis to the user.
 7. Add the rule to `.praxis/domains/rules.md`, keeping the list in alphabetical order, linking to `.praxis/domains/rules/${item-name}.md`, and replacing the template placeholder line if it is still there.
 8. No confidence table covers this domain; the confidence lives only in the item's file.
-9. Run the `checks` script of the workspace (not on this branch: do the step by hand): it must exit 0, with no check above its baseline (hygiene and tmplcheck, among its checks, cover the new rule) (hygiene reports a name or an exception that does not have its form).
+9. Check the new rule: its list entry, template sections, Status, Confidence and alignment references all hold, its name and any exception have their form, and no check that passed before now fails.
 10. Look for other documents that already state or contradict this rule: `grep -rn -i` for its key words and their neighbors (inflections, synonyms, field names) across `.praxis/` (`flow.md`, `CLAUDE.md`, `README.md`, `glossary.md`, `lifecycles/`, `templates/`, `domains/`, `factory/`, `tracking/`; leave `state/` and git history alone, since they record what was true then). Where another document restates the same idea, say it once in the new rule and have the other point to it; where one contradicts it, list the contradiction under Domain Alignment instead of editing the other document silently.
 11. Commit the item, the list, and any pointer edits as one logical change with `git`, naming the rule in the commit message.
 

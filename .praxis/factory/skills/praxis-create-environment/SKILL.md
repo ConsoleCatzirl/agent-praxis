@@ -3,8 +3,6 @@ name: praxis-create-environment
 description: Create a new environment in `.praxis/domains/environment/` from its template, set its starting stage and confidence, align it with existing items, list it, and commit it. Use when an environment is to be added to the `environment` domain.
 confidence: Low
 complexity: Qualitative
-implements:
-  - Add Domain Entry
 ---
 
 # Skill: Praxis Create Environment

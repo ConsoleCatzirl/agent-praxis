@@ -5,7 +5,6 @@ confidence: Low
 complexity: Qualitative
 implements:
   - Create a Praxis Component
-  - Track Confidence
 ---
 
 # Skill: Praxis Create Pattern
@@ -116,12 +115,4 @@ A step of the Procedure would be written as prose, or a step names no product.
 Solution:
 Do not write the prose into the Pattern. A mechanical step becomes a script (`praxis-create-script`); a step that needs judgement or instructions becomes a skill, new (`praxis-create-skill`) or an addition to an existing one (`praxis-refine-skill`). Then name that product in the step.
 
-2026-11-24: used once (Write a Project Document From Read Sources). Steps 7 and 8 were done by hand, since the register option of add-item does not accept a Pattern; step 5 offers a JSON route of the same script that was not tried. Stays Low: one use.
-
 ## Notes
-
-2026-11-24 (third run, Plan Write the 0-evidence mechanism skills for template/semantic): used for its intent to write three Patterns, text only, Hypothesized at Low, on a clone of a template branch in that branch's older Pattern template; the steps naming workspace scripts were done by hand. Stays Low.
-
-2026-11-24 (fourth run, same Plan): used in this workspace; its step 5 named the script that adds items, whose registering option does not take a Pattern, so the list entry and row were written by hand (the script's JSON form was not tried). Stays Low.
-
-2026-11-24 (fifth run, same Plan): used for 14 Patterns with the script that adds items, against a template branch; its row for the branch's table had the wrong columns and was rewritten, which a read of the branch's header before writing would have avoided. Stays Low.
