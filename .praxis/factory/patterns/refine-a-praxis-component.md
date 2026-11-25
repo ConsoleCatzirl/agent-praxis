@@ -42,7 +42,7 @@ Correlated confidence levels:
 ## Domain Alignment
 
 Reinforcing:
-- none known
+- Rule: Every Pattern MUST Be Carried Out by at Least One Skill
 
 Ambiguous:
 - none known
