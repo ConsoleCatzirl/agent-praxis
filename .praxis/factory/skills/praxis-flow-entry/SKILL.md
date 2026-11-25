@@ -27,7 +27,7 @@ User prompt and current state
 
 First match of:
 - If all current live state is empty, continue to `praxis-flow-decompose`.
-- If all current live state is in its final status state and there are no uncommitted changes to `.praxis/`, then clear the state using `praxis-clear` and continue to `praxis-flow-decompose`.
+- If all current live state is in its final status state and there are no uncommitted changes to `.praxis/`, then clear the state using `praxis-flow-clear-state` and continue to `praxis-flow-decompose`.
 - If the only defined state are Tasks, continue to `praxis-flow-plan`.
 - If the only defined state are Tasks and Plans, continue to `praxis-flow-predict`.
 - If the only defined state are Tasks, Plans, and Predictions, and at least one Prediction or Plan is neither Approved nor Rejected, then continue to `praxis-flow-discern`.

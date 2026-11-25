@@ -36,7 +36,7 @@ The outcome has been analyzed.
 
 **Exit Paths:**
 Cleared:
-- `praxis-clear`
+- `praxis-flow-clear-state`
 
 ## Stage 3: Bypassed
 
@@ -47,4 +47,4 @@ A Plan for all Trivial complexity Tasks, bypassing planning prediction, and dise
 
 **Exit Paths:**
 Cleared:
-- `praxis-clear`
+- `praxis-flow-clear-state`

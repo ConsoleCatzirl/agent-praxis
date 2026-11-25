@@ -54,7 +54,7 @@ All sub-tasks are finished. Document outcomes and any artifacts produced.
 - `praxis-flow-act`
 
 **Exit Paths:**
-- `praxis-clear`
+- `praxis-flow-clear-state`
 
 ## Stage 3: Rejected
 
@@ -66,4 +66,4 @@ Tasks will not be performed.
 - `praxis-flow-discern`
 
 **Exit Paths:**
-- `praxis-clear`
+- `praxis-flow-clear-state`

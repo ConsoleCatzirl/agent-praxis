@@ -80,7 +80,7 @@ Anticipated and Actualized outcomes (or rejection reason) have been compared and
 
 **Exit Paths:**
 Cleared:
-- `praxis-clear`
+- `praxis-flow-clear-state`
 
 ## Stage 6: Bypassed
 
@@ -91,4 +91,4 @@ A Plan for all Trivial complexity Tasks, bypassing planning prediction, and dise
 
 **Exit Paths:**
 Cleared:
-- `praxis-clear`
+- `praxis-flow-clear-state`

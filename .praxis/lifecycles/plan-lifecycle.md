@@ -54,7 +54,7 @@ All Plans have finished execution. Document Outcomes and any artifacts produced.
 
 **Exit Paths:**
 Cleared:
-- `praxis-clear`
+- `praxis-flow-clear-state`
 
 ## Stage 4: Rejected
 
@@ -66,7 +66,7 @@ Plan will not be performed.
 
 **Exit Paths:**
 Cleared:
-- `praxis-clear`
+- `praxis-flow-clear-state`
 
 ## Stage 5: Bypassed
 

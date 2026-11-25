@@ -38,7 +38,7 @@ Analysis updates have been applied.
 
 **Exit Paths:**
 Cleared:
-- `praxis-clear`
+- `praxis-flow-clear-state`
 
 ## Stage 3: Bypassed
 

@@ -14,7 +14,7 @@ A process for planning our actions, reflecting on them, and improving behavior.
 
 `.praxis/factory/`: The Factory: agents, habits, hooks, patterns, scripts, skills, and tools, with their READMEs and lists
 
-`.praxis/factory/skills/`: All skills, including the Flow skills (`praxis-flow-*`); an installed skill is moved to `.claude/skills/` and recorded in `.praxis/factory/installs.yaml`
+`.praxis/factory/skills/`: All skills, including the Flow skills (`praxis-flow-*`); an installed skill is moved to `.claude/skills/<name>/` and recorded in `.praxis/factory/installs.yaml`
 
 `.praxis/lifecycles/`: State-machine grammars for each component
 
