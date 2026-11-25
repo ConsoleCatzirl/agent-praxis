@@ -27,12 +27,7 @@ The Flow is not strictly linear: a rejected or revised Plan sends it back to pla
 
 ## Getting Started
 
-1. Read `AGENTS.md` (or `CLAUDE.md`), which tells the agent to begin every prompt with `praxis-flow-entry`, and `.praxis/flow.md`.
-2. Make the skills visible to your agent. The skills live in `.praxis/factory/skills/<name>/SKILL.md`; a skill is installed by moving it to `.claude/skills/<name>/` and recording the move in `.praxis/factory/installs.yaml` (see `.praxis/lifecycles/install-lifecycle.md`). No skill is installed on this branch.
-3. Add your project's own domain items to `.praxis/domains/` with the `praxis-create-<domain>` skills, and read `.praxis/domains/README.md` first. Asserted items are enforced; the others inform predictions.
-4. Give the agent a prompt. It decomposes the prompt, plans, predicts, acts, reflects, and reports, keeping the current run's records in `.praxis/state/` and the lasting record of confidence and signals in `.praxis/tracking/`.
-
-Each stage commits what it changed under `.praxis/`, so `git log` is the history of how the project's practice changed.
+Add a copy of `.praxis` to the root of your project workspace, then use your favorite tool to ask your favorite model to incorporate `.praxis` into your project.
 
 ## Key Terms
 
