@@ -44,6 +44,7 @@ The skill's directory at its new location, `installs.yaml` updated, and a commit
 
 Aligned
 - Rule: Praxis Records MUST Conform to Their Templates and Lifecycles
+- Rule: An Installed Skill MUST Be Recorded in installs.yaml
 
 Unaligned
 - none known
