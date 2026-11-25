@@ -54,6 +54,13 @@ Columns: `agent`, `model`, `effort`, `confidence`, `lifecycle`, `run-count`
 `lifecycle`: lifecycle state for this agent.
 `run-count`: run count for this agent at this confidence level
 
+[Habits](./confidence/habits.csv)
+Columns: `habit`, `confidence`, `lifecycle`, `run-count`
+`habit`: the factory habit being tracked
+`confidence`: the confidence level for this habit
+`lifecycle`: lifecycle state for this habit.
+`run-count`: run count for this habit at this confidence level
+
 [Hooks](./confidence/hooks.csv)
 Columns: `hook`, `confidence`, `lifecycle`, `run-count`
 `hook`: the factory skill being tracked

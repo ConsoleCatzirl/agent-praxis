@@ -10,5 +10,11 @@ An overview of confidence tables can be found in `.praxis/tracking/confidence.md
 
 Data points for tracking the performance and quality of The Praxis Flow itself.
 
-An overview of signal metrics can be found in `.praxis/tracking/confidence.md`.
+An overview of signal metrics can be found in `.praxis/tracking/signals.md`.
+
+## Introspections
+
+The record of each introspection, with its forecasts and their scores.
+
+A list of introspections can be found in `.praxis/tracking/introspections.md`.
 
