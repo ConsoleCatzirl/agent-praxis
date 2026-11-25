@@ -17,21 +17,28 @@ Use `praxis-flow-entry` for entry or re-entry.
 
 ### Anticipate
 
+```
 `praxis-flow-decompose` -> [ `praxis-flow-plan` | Act | Reflect ]
 `praxis-flow-plan` -> `praxis-flow-predict`
 `praxis-flow-predict` -> [ `praxis-flow-plan` | `praxis-flow-discern` ]
 `praxis-flow-discern` -> [ `praxis-flow-plan` | Act | Reflect ]
+```
 
 ### Act
 
+```
 `praxis-flow-act` -> Reflect
+```
 
 ### Reflect
 
+```
 `praxis-flow-analyze` -> `praxis-flow-learn`
 `praxis-flow-learn` -> `praxis-flow-record`
 `praxis-flow-record` -> `praxis-flow-report`
-`praxis-flow-report` -> `praxis-flow-clear-state` -> End
+`praxis-flow-report` -> `praxis-flow-clear-state`
+`praxis-flow-clear-state` -> End
+```
 
 `praxis-flow-clear-state` is the last tool call of `praxis-flow-report`, after `praxis-flow-verify-state` confirms the iteration is complete.
 
