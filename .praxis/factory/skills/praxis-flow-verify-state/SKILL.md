@@ -8,7 +8,7 @@ description: Verify current praxis state
 Determine the state of the current flow iteration.
 
 ## Origin
-Initial Implementation
+Praxis Template
 
 ## Description
 Read the contents of `.praxis/state/` and report on its state.

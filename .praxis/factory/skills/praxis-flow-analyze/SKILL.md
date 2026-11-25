@@ -8,7 +8,7 @@ description: Analyze the outcome of performing a plan
 Compare the actualized outcomes with predicted outcomes.
 
 ## Origin
-Initial Implementation
+Praxis Template
 
 ## Purpose
 Compare predicted results with actualized results

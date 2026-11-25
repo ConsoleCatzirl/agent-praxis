@@ -8,7 +8,7 @@ description: Decompose user prompt into tasks
 Decompose the user prompt into a list of Tasks.
 
 ## Origin
-Initial Implementation
+Praxis Template
 
 ## Purpose
 

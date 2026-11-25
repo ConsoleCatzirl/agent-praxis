@@ -10,7 +10,7 @@ complexity: Qualitative
 Change an existing practice (an imperative way of doing things (a modus operandi)) without breaking its file, list, alignment, or lifecycle.
 
 ## Origin
-Taken from the workspace's skill of the same name, without its run evidence; no recorded use on this branch.
+Praxis Template
 
 ## Purpose
 Revise a practice one reason at a time, so that every change is justified, the confidence and stage follow `.praxis/lifecycles/assertion-lifecycle.md` and `.praxis/lifecycles/confidence-lifecycle.md`, and nothing is left disagreeing with it.

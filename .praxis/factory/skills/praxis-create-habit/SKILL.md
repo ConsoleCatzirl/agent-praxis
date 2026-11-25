@@ -7,7 +7,7 @@ confidence: Low
 # Skill: Praxis Create Habit
 
 ## Origin
-Written for this template as a mechanism of the factory, with no recorded use.
+Praxis Template
 
 ## Purpose
 Give a recurring sequence of deterministic products one name, a tracked confidence and a checked complexity level, so that skills run it the same way every time.

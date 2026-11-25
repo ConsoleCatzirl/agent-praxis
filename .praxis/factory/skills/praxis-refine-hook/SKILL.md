@@ -10,7 +10,7 @@ complexity: Qualitative
 Iteratively improve an existing hook (a custom Claude Code hook (a command the harness runs on an event such as a tool call)).
 
 ## Origin
-Taken from the workspace's skill of the same name, without its run evidence; no recorded use on this branch.
+Praxis Template
 
 ## Purpose
 Change a hook while keeping it tested, documented, and honestly tracked, so that its confidence reflects what it does now.

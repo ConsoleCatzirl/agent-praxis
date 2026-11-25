@@ -10,7 +10,7 @@ complexity: Qualitative
 Check that the records the Flow reads and writes are well formed and in their places, so that Rule: Praxis Records MUST Conform to Their Templates and Lifecycles holds in fact and not only in the checks that happen to exist.
 
 ## Origin
-The deep introspection of 2026-11-21 (the owner: "structural assessment (links resolve, templates are adhered to, lifecycles are valid, files are in correct locations, content is in the correct file)"). At its Plan, the checks of cohesion, templates and status words each found nothing while the check of links found 148 and `plan-lifecycle.md` named a skill that does not exist: the checks covered less than the Rule asks.
+Praxis Template
 
 ## Purpose
 Find every structural defect in scope, fix the mechanical ones when the Plan allows it, and hand the rest to `praxis-flow-learn` with evidence.

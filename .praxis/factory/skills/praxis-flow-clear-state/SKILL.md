@@ -8,7 +8,7 @@ description: Clear previous praxis state
 Prepare a new Praxis Flow run by clearing out previous state in `.praxis/state/`.
 
 ## Origin
-Initial Implementation
+Praxis Template
 
 ## Description
 Remove any named Tasks, Plans, Predictions, Outcomes, and Analyses from state, keeping only header/stub files

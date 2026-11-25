@@ -8,7 +8,7 @@ description: Perform an approved Plan and record the Outcome
 Perform an approved Plan and record the Outcome 
 
 ## Origin
-Initial Implementation
+Praxis Template
 
 ## Purpose
 Actualize (perform or act on) the Plan

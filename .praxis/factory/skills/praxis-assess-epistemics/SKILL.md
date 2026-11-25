@@ -10,7 +10,7 @@ complexity: Qualitative
 Check what the agent holds to be true, good, and required: that each commitment is filed as the kind of commitment it is, that the commitments agree with each other and with the commitments of the project repositories they serve, and that the factory actually carries them out.
 
 ## Origin
-The deep introspection of 2026-11-21 (the owner: "epistemic assessment (are domain items in optimal domains?, ambiguity or contradictions? do factory products align with domain items?)").
+Praxis Template
 
 ## Purpose
 Propose better domains for misfiled items, state each ambiguity and contradiction (a contradiction between Asserted items as thesis, antithesis, and synthesis), and list where the factory and the domains disagree.

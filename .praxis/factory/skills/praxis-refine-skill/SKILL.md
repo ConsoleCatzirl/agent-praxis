@@ -8,7 +8,7 @@ description: Process for iteratively improving skills
 The process for modifying skills. 
 
 ## Origin
-Initial Implementation
+Praxis Template
 
 ## Purpose
 Iterative improvement.

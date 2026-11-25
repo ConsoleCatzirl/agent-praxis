@@ -8,7 +8,7 @@ description: Learn from our outcome analysis
 Review the results of the analysis for appropriate changes in tracking or domains.
 
 ## Origin
-Initial Implementation
+Praxis Template
 
 ## Purpose
 Review Outcome Analyses to update Tracking, Guiding, and Steering appropriately

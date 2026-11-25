@@ -10,7 +10,7 @@ complexity: Qualitative
 Create a new agent in the factory: a custom agent definition (a delegate with its own prompt, tools, model and effort).
 
 ## Origin
-Taken from the workspace's skill of the same name, without its run evidence; no recorded use on this branch.
+Praxis Template
 
 ## Purpose
 Add a agent that is right-sized to its purpose, recorded in the factory list and the confidence table, and starts Unstable until use earns it confidence.

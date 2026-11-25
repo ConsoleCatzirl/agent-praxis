@@ -8,7 +8,7 @@ description: Predict anticipated outcomes for the current Plan
 Predict anticipated outcomes for the current Plan
 
 ## Origin
-Initial Implementation
+Praxis Template
 
 ## Purpose
 

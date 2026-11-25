@@ -7,7 +7,7 @@ confidence: Low
 # Skill: Praxis Install Skill
 
 ## Origin
-Written for this template as a mechanism of the factory, with no recorded use.
+Praxis Template
 
 ## Purpose
 Make a skill available to the agent only when the install lifecycle says its confidence supports it, and keep one record of what is installed.

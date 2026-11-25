@@ -8,7 +8,7 @@ description: Create new scripts in `.praxis/factory/scripts/`
 Create a new script in the factory
 
 ## Origin
-Initial Implementation
+Praxis Template
 
 ## Description
 Implement scripts, right-sized to complexity.

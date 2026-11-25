@@ -10,7 +10,7 @@ complexity: Qualitative
 Create a new belief (a falsifiable statement developed through evidence and inference) in the `beliefs` domain.
 
 ## Origin
-Taken from the workspace's skill of the same name, without its run evidence; no recorded use on this branch.
+Praxis Template
 
 ## Purpose
 Add a belief so that its file, its list entry, its alignment, and its confidence row agree, and so that it starts at the confidence and stage its origin supports.

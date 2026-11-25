@@ -10,7 +10,7 @@ complexity: Qualitative
 Write the file of a Signal (a calibration or self-evaluation metric for the Flow) and its list entry, so that its metric is stated in a way a script can compute.
 
 ## Origin
-Adding or changing a Signal was prose done by the agent, with no skill to do it. Written on 2026-11-22 so that every step of a Pattern names a factory product.
+Praxis Template
 
 ## Purpose
 Keep each Signal one file with the template's sections, a metric that can be computed, and one entry in the list, so that the script that computes the Signals and `praxis-flow-learn` can read and fill it.

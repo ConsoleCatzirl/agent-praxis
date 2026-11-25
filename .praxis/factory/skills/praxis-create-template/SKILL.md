@@ -10,7 +10,7 @@ implements:
 # Skill: praxis-create-template
 
 ## Origin
-The owner, 2026-11-22: "create skills for creating lifecycles and templates", after the introspection template had to be written by hand (Plan Track Introspections as Items).
+Praxis Template
 
 ## Purpose
 Give a new kind of item a template that the scripts can check and the skills can fill, so every item of the kind has the same headings and fields.

@@ -7,7 +7,7 @@ confidence: Low
 # Skill: Praxis Refine Introspection
 
 ## Origin
-Written for this template as a mechanism of the factory, with no recorded use.
+Praxis Template
 
 ## Purpose
 Close the loop on introspection: say which forecasts held, so that introspection is judged by what followed it.

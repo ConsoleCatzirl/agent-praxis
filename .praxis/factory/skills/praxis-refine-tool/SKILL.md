@@ -10,7 +10,7 @@ complexity: Qualitative
 Iteratively improve an existing tool (a custom MCP tool (a tool exposed to the agent through the Model Context Protocol, with a defined input schema and output, wrapping one or more scripts)).
 
 ## Origin
-Taken from the workspace's skill of the same name, without its run evidence; no recorded use on this branch.
+Praxis Template
 
 ## Purpose
 Change a tool while keeping it tested, documented, and honestly tracked, so that its confidence reflects what it does now.

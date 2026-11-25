@@ -10,7 +10,7 @@ complexity: Qualitative
 Create a new principle (a rationale, underlying cause, or related doctrine) in the `principles` domain.
 
 ## Origin
-Taken from the workspace's skill of the same name, without its run evidence; no recorded use on this branch.
+Praxis Template
 
 ## Purpose
 Add a principle so that its file, its list entry, its alignment agree, and so that it starts at the confidence and stage its origin supports.

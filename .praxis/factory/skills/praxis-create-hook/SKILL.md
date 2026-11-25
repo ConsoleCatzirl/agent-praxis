@@ -10,7 +10,7 @@ complexity: Qualitative
 Create a new hook in the factory: a custom Claude Code hook (a command the harness runs on an event such as a tool call).
 
 ## Origin
-Taken from the workspace's skill of the same name, without its run evidence; no recorded use on this branch.
+Praxis Template
 
 ## Purpose
 Add a hook that is right-sized to its purpose, recorded in the factory list and the confidence table, and starts Unstable until use earns it confidence.

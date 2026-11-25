@@ -8,7 +8,7 @@ description: Conversationally summarize Plans, Predictions, Analysis, and Learni
 Conversationally summarize Plans, Predictions, Analysis, and Learnings for this action.
 
 ## Origin
-Initial Implementation
+Praxis Template
 
 ## Purpose
 Summarize this run of the Praxis Flow for the user

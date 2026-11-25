@@ -8,7 +8,7 @@ description: Record what we learned from our analysis
 Write changes to relevant praxis domains and tracking.
 
 ## Origin
-Initial Implementation
+Praxis Template
 
 ## Purpose
 Maintain a record of changes to any and all aspects of this Praxis Flow

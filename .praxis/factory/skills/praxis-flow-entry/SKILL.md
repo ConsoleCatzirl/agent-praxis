@@ -6,7 +6,7 @@ description: Prompt entry-point for determing current Flow stage
 # Skill: Praxis Start or Resume
 
 ## Origin
-Initial Implementation
+Praxis Template
 
 ## Purpose
 Resume previous Tasks or start new ones

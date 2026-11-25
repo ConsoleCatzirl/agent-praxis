@@ -7,7 +7,7 @@ confidence: Low
 # Skill: Praxis Refine Habit
 
 ## Origin
-Written for this template as a mechanism of the factory, with no recorded use.
+Praxis Template
 
 ## Purpose
 Keep a habit's steps, declared complexity and tracking row true to what it does now.

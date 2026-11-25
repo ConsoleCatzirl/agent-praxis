@@ -10,7 +10,7 @@ complexity: Qualitative
 Create a new environment (a current environmental condition) in the `environment` domain.
 
 ## Origin
-Initial Implementation
+Praxis Template
 
 ## Purpose
 Add an environment so that its file, its list entry, its alignment agree, and so that it starts at the confidence and stage its origin supports.

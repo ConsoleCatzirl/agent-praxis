@@ -10,7 +10,7 @@ complexity: Qualitative
 Iteratively improve an existing agent (a custom agent definition (a delegate with its own prompt, tools, model and effort)).
 
 ## Origin
-Taken from the workspace's skill of the same name, without its run evidence; no recorded use on this branch.
+Praxis Template
 
 ## Purpose
 Change a agent while keeping it tested, documented, and honestly tracked, so that its confidence reflects what it does now.

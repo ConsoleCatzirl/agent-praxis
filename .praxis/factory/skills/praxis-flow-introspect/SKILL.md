@@ -10,7 +10,7 @@ complexity: Qualitative
 Look across many Flow runs, not just the current one, for what the agent has not yet noticed about itself.
 
 ## Origin
-Taken from the workspace's skill of the same name, without its run evidence; no recorded use on this branch.
+Praxis Template
 
 ## Purpose
 Find Patterns, skill candidates, Signals, confidence changes, contradictions, and domain updates that only show up in the history of tracking, the domains, the factory, and past runs.

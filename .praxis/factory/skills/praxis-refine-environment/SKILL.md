@@ -10,7 +10,7 @@ complexity: Qualitative
 Change an existing environment (a current environmental condition) without breaking its file, list, alignment, or lifecycle.
 
 ## Origin
-Initial Implementation
+Praxis Template
 
 ## Purpose
 Revise an environment one reason at a time, so that every change is justified, the confidence and stage follow `.praxis/lifecycles/evidenced-lifecycle.md` and `.praxis/lifecycles/confidence-lifecycle.md`, and nothing is left disagreeing with it.

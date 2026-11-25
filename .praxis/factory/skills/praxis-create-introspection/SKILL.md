@@ -7,7 +7,7 @@ confidence: Low
 # Skill: Praxis Create Introspection
 
 ## Origin
-Written for this template as a mechanism of the factory, with no recorded use.
+Praxis Template
 
 ## Purpose
 Hold an introspection to the outcomes that follow it: record what it forecast, so that later introspections can score the forecasts.

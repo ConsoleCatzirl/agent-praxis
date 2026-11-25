@@ -10,7 +10,7 @@ complexity: Qualitative
 Assess the agent's own recent behavior, on request or after something notable, without a full history sweep.
 
 ## Origin
-Taken from the workspace's skill of the same name, without its run evidence; no recorded use on this branch.
+Praxis Template
 
 ## Purpose
 Notice, soon and cheaply, where recent actions and their stated rationale departed from the domains, the Flow, or the Predictions, and say what should change.

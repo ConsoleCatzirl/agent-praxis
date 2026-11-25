@@ -10,7 +10,7 @@ complexity: Qualitative
 Iteratively improve an existing script (any programmatic product that is not an agent hook or an MCP tool).
 
 ## Origin
-Taken from the workspace's skill of the same name, without its run evidence; no recorded use on this branch.
+Praxis Template
 
 ## Purpose
 Change a script while keeping it tested, documented, and honestly tracked, so that its confidence reflects what it does now.

@@ -10,7 +10,7 @@ complexity: Qualitative
 Create a new tool in the factory: a custom MCP tool (a tool exposed to the agent through the Model Context Protocol, with a defined input schema and output, wrapping one or more scripts).
 
 ## Origin
-Taken from the workspace's skill of the same name, without its run evidence; no recorded use on this branch.
+Praxis Template
 
 ## Purpose
 Add a tool that is right-sized to its purpose, recorded in the factory list and the confidence table, and starts Unstable until use earns it confidence.

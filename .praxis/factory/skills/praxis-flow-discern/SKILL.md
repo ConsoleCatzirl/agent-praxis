@@ -8,7 +8,7 @@ description: Determine whether or not act on a plan
 Review a Plan's Prediction and determine whether to act, alter the plan, or abort.
 
 ## Origin
-Initial Implementation
+Praxis Template
 
 ## Purpose
 Review Plans and their Predictions for approval or rejection.

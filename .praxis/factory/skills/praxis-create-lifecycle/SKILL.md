@@ -10,7 +10,7 @@ implements:
 # Skill: praxis-create-lifecycle
 
 ## Origin
-The owner, 2026-11-22: "create skills for creating lifecycles and templates", after the introspection lifecycle had to be written by hand (Plan Track Introspections as Items).
+Praxis Template
 
 ## Purpose
 Give a new kind of item a lifecycle that is a valid state machine, agrees with the skills that move items through it, and is known to the scripts and documents that read lifecycles.

@@ -10,7 +10,7 @@ complexity: Qualitative
 Create a new skill in the factory.
 
 ## Origin
-Taken from the workspace's skill of the same name, without its run evidence; no recorded use on this branch.
+Praxis Template
 
 ## Purpose
 Add a skill that is needed, correctly named, written from the template, tracked at Unstable and Low, and never linked into use before it has earned confidence.

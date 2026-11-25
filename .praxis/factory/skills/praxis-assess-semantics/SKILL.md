@@ -10,7 +10,7 @@ complexity: Qualitative
 Check that the words the Flow runs on mean one thing, that its state machines describe what the skills actually do, and that complexity levels say what they claim.
 
 ## Origin
-The deep introspection of 2026-11-21 (the owner: "semantic assessment (consistent meanings, do the lifecycles make sense?, are complexity levels correct?)"). At its Plan the Phases were named three ways (`flow.md`: Anticipate, Act, Reflect; the glossary: Anticipate, Act, Reflect with Decompose and Plan inside Anticipate; `.praxis/CLAUDE.md`: Plan, Anticipate, Act, Reflect, Return), and two Patterns were Structural although each names a skill.
+Praxis Template
 
 ## Purpose
 Find terms with more than one meaning, lifecycles whose stages or paths do not match their use, and complexity levels that break their definitions, and propose one reading for each.

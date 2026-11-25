@@ -12,7 +12,7 @@ implements:
 Create a new pattern (an ordered list of factory products that compose to complete a kind of Task) in the Factory (`.praxis/factory/patterns/`).
 
 ## Origin
-Initial Implementation
+Praxis Template
 
 ## Purpose
 Add a pattern so that its file, its list entry, its alignment, and its confidence row agree, and so that it starts at the confidence and stage its origin supports.

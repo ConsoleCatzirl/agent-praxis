@@ -8,7 +8,7 @@ description: Create a Plan for a list of Tasks
 Determine an appropriate list of patterns and one-off skills, tools, and commands to address each current Task.
 
 ## Origin
-Initial Implementation
+Praxis Template
 
 ## Purpose
 Establish a sequence of Patterns to fulfill a set of Tasks
