@@ -9,7 +9,7 @@ Confidence: Low
 
 ## Description
 
-Every Pattern MUST list at least one skill that carries it out in its Procedure, and each listed skill MUST exist in `.praxis/factory/skills/` or `.claude/skills/`. A Pattern's text is general; a skill carries it out with specific steps for a situation, and a Pattern may list several skills for different situations.
+Every Pattern MUST list at least one skill that carries it out in its Procedure, and each listed skill MUST exist in `.praxis/factory/skills/` or `.claude/skills/<name>/`. A Pattern's text is general; a skill carries it out with specific steps for a situation, and a Pattern may list several skills for different situations.
 
 ## Protection
 
