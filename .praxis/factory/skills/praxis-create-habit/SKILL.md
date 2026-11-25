@@ -46,6 +46,7 @@ A new habit under `.praxis/factory/habits/`, its list entry and tracking row, th
 
 Aligned
 - Rule: Praxis Records MUST Conform to Their Templates and Lifecycles
+- Rule: Every Habit Step MUST Name a Factory Product Other Than a Skill or Agent
 
 Unaligned
 - none known

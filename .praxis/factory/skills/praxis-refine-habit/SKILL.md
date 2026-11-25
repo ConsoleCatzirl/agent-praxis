@@ -45,6 +45,7 @@ The changed habit, its tracking row, any skill that names it, and a commit.
 
 Aligned
 - Rule: Praxis Records MUST Conform to Their Templates and Lifecycles
+- Rule: Every Habit Step MUST Name a Factory Product Other Than a Skill or Agent
 
 Unaligned
 - none known
