@@ -27,7 +27,7 @@ The Flow is not strictly linear: a rejected or revised Plan sends it back to pla
 
 ## Getting Started
 
-Add a copy of `.praxis` to the root of your project workspace, then use your favorite tool to ask your favorite model to incorporate `.praxis` into your project.
+Add a copy of `.praxis` to the root of your project workspace, then use your favorite tool to ask your favorite model to incorporate `.praxis` into your project. The authors recommend giving the directory dedicated git history.
 
 ## Key Terms
 
