@@ -38,7 +38,7 @@ The purpose of the tool, a short name (lowercase, hyphenated, prefixed `praxis-`
 6. Define the interface first: the tool name, a description the agent can choose it by, the JSON input schema (types, required fields, defaults), the output content, and the error shape.
 7. Reuse existing factory scripts for the work and wrap them; write a new script with `praxis-create-script` only for what no script does.
 8. Implement the MCP server code at `.praxis/factory/tools/${tool}/` (one server per directory; stdio transport unless the user asks otherwise). The tool validates its arguments against its schema, does one thing, and is idempotent when it writes.
-9. Test it with valid, invalid, and empty input, through a client or `tools/call` request, and record the commands and results.
+9. Test it with valid, invalid, and empty input, through a client or an MCP tool-call request, and record the commands and results.
 10. Write `.praxis/factory/tools/${tool}/README.md` from `.praxis/templates/factory-product-template.md`: the interface (schema and output), the scripts it wraps, how to start the server, tests, and conditions for revision.
 11. Register the tool with the `add-item` script of the workspace (not on this branch: do the step by hand): it adds the tool to `.praxis/factory/tools.md` in alphabetical order, linking to its README, and a row to `.praxis/tracking/confidence/tools.csv` (`tool,confidence,lifecycle,…,current-plan-count,total-plan-count,version`) at `Unstable`, `Low`, plan counts `0` and revision count `1`.
 12. Commit the tool, its README, the list, and the table row as one logical change with `git`.

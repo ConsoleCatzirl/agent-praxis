@@ -23,7 +23,7 @@ Approved -> [ Completed | Rejected ]
 The Tasks for the Plan Actions are documented.
 
 **Entry Paths:**
-- `praxis-create-task`
+- `praxis-flow-decompose`
 
 **Exit Paths:**
 Approved:

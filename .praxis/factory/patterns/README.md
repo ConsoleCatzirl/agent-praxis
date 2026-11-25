@@ -10,4 +10,4 @@ Each pattern is created at `.praxis/factory/patterns/${item-name}.md` from `.pra
 
 ## List of Patterns
 
-A list of patterns can be found at `.praxis/factorys/patterns.md`, with links to more information for each at `.praxis/factorys/patterns/${item-name}.md`.
+A list of patterns can be found at `.praxis/factory/patterns.md`, with links to more information for each at `.praxis/factory/patterns/${item-name}.md`.

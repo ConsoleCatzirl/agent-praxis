@@ -26,7 +26,7 @@ The skill classifies the reason for the change, applies the smallest edit that a
 ## Requirements
 - An existing environment in `.praxis/domains/environment.md`.
 - A stated reason for the change, with its source: user statement, Analysis, introspection, or an observed contradiction.
-- The owner's request for the change, or the agent's case-by-case judgement that it may be made now (`.praxis/CLAUDE.md`, "Domain and Tracking Changes").
+- The owner's request for the change, or the agent's case-by-case judgement that it may be made now (`CLAUDE.md`, "Domain and Tracking Changes").
 
 ## Inputs
 The environment's name and the reason for the change, with any evidence.
@@ -39,7 +39,7 @@ The environment's name and the reason for the change, with any evidence.
    - **Confidence change**: apply only a change that a path in the confidence lifecycle allows, and write the evidence for it in the file.
    - **Stage change**: use `praxis-promote-evidenced` and return here for the file and table updates.
    - **Abandonment**: a Debunked environment stays in git history; follow the lifecycle's Cleared stage, judged case by case like any change (step 3).
-3. Judge, case by case, whether to make the change now or to propose it to the owner first (`.praxis/CLAUDE.md`, "Domain and Tracking Changes"); to propose it, stop here and name it in the `praxis-flow-learn` review.
+3. Judge, case by case, whether to make the change now or to propose it to the owner first (`CLAUDE.md`, "Domain and Tracking Changes"); to propose it, stop here and name it in the `praxis-flow-learn` review.
 4. Edit the file. Update the `modified` timestamp with `date -Iseconds`, leave `created` alone, and keep every template heading.
 5. If the change was a major revision of an item at Medium or higher, lower its confidence to what the lifecycle allows for a revised item (Low or Medium) unless the user directs otherwise.
 6. Re-check Domain Alignment: every referenced item must still exist, and re-read the items that mention this environment in their own alignment. Update any that no longer agree, and record a new contradiction as a contradiction, not as a silent edit.

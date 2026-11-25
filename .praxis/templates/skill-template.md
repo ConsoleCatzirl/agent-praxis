@@ -1,5 +1,5 @@
 ---
-description: template for skills in `.praxis/skills/`.
+description: template for skills in `.praxis/factory/skills/`.
 ---
 name: skill-name
 description: One sentence description of what this skill does (required for discloseContext discovery).

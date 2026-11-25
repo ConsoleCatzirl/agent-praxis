@@ -34,7 +34,7 @@ Coherent user prompt
   - `.praxis/state/README.md`
   - `.praxis/factory/README.md`
 2. Identify all Tasks contained in the user prompt, asking the user for any needed clarity.
-3. Create an item in `.praxis/state/tasks/` for each Identified Task using the template `.praxis/template/task-template.md`.
+3. Create an item in `.praxis/state/tasks/` for each Identified Task using the template `.praxis/templates/task-template.md`.
 
 ## Output
 

@@ -24,7 +24,7 @@ When the user asks for an environment, or a Flow stage (usually `praxis-flow-lea
 The skill checks that the name is new, picks the starting stage and confidence from the evidenced lifecycle's entry paths, writes the item from `.praxis/templates/environment-template.md`, aligns it with the items that already exist, and records it in the domain list. It then commits the result as one logical change.
 
 ## Requirements
-- The owner's request for the environment, or the agent's case-by-case judgement that it may be added now (`.praxis/CLAUDE.md`, "Domain and Tracking Changes").
+- The owner's request for the environment, or the agent's case-by-case judgement that it may be added now (`CLAUDE.md`, "Domain and Tracking Changes").
 - A name and content for the environment.
 - `.praxis/templates/environment-template.md`, `.praxis/lifecycles/evidenced-lifecycle.md`, and `.praxis/lifecycles/confidence-lifecycle.md` exist.
 
@@ -34,7 +34,7 @@ A short name (the file name is `${item-name}.md`, lowercase and hyphenated), the
 ## Procedure
 1. Read the following files if they are not already in context: `.praxis/domains/README.md`, `.praxis/domains/environment/README.md`, `.praxis/domains/environment.md`, `.praxis/templates/environment-template.md`, `.praxis/lifecycles/evidenced-lifecycle.md`, and `.praxis/lifecycles/confidence-lifecycle.md`.
 2. Check that the name is not already in `.praxis/domains/environment.md`. If it is, stop and use `praxis-refine-environment` instead of adding a second item.
-3. Judge, case by case, whether to add the environment now or to propose it to the owner first (`.praxis/CLAUDE.md`, "Domain and Tracking Changes"); to propose it, stop here and name it in the `praxis-flow-learn` review.
+3. Judge, case by case, whether to add the environment now or to propose it to the owner first (`CLAUDE.md`, "Domain and Tracking Changes"); to propose it, stop here and name it in the `praxis-flow-learn` review.
 4. Choose the starting lifecycle stage and confidence (stages: Hypothesized, Evidenced, Established, Challenged, Debunked):
    - **Hypothesized at Low** when the agent originates the item from a first observation or inference.
    - **Hypothesized at Medium** when the user states it directly.

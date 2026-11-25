@@ -40,7 +40,7 @@ A modified skill with adjusted confidence.
 
 ## Success Criteria
 
-Either a new skill, tool, or script  under `.praxis/incubator/`, or a new Pattern in `.praxis/tracking/patterns.md` and `.praxis/tracking/pattern-details.md`
+Either a new skill, tool, or script  under `.praxis/factory/`, or a new Pattern in `.praxis/factory/patterns/`
 
 ## Domain Alignment
 

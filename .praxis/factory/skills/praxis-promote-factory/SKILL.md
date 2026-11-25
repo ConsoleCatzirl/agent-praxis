@@ -55,9 +55,9 @@ Cleared:
 |-------|------|----------|------------|------|
 | 0 | Observation | `confidence.md` commands table | Low | Reaches Medium |
 | 1 | Pattern Recognition | `introspect` analysis | Medium | User approves incubation |
-| 2 | Incubation | `.praxis/skills/incubation/` | Low → High | Reaches High |
+| 2 | Incubation | `.praxis/factory/skills/` | Low → High | Reaches High |
 | 3 | Discernment Review | `discern` verdict | High | AGREE verdict |
-| 4 | Certified | `.praxis/skills/` | Ongoing | — |
+| 4 | Certified | installed for the agent | Ongoing | — |
 
 ## Stage Flow
 
@@ -94,7 +94,7 @@ If a command or pattern looks like it could be a skill:
 
 ## Stage 2: Incubation
 
-An approved skill candidate is drafted using `.praxis/templates/skill-incubation-template.md` and placed in `.praxis/skills/incubation/`.
+An approved skill candidate is drafted using `.praxis/templates/skill-template.md` and placed in `.praxis/factory/skills/`.
 
 The skill is added to the Skills table in `confidence.md` at Low confidence.
 
@@ -104,7 +104,7 @@ During this stage:
 - Supervision notes are added to the incubation file after each cycle
 - Confidence is updated via the `learn` skill after each use
 
-**Entry trigger:** User approves incubation; file created in `.praxis/skills/incubation/`.
+**Entry trigger:** User approves incubation; file created in `.praxis/factory/skills/`.
 **Exit trigger:** Skill confidence reaches High through supervised use.
 
 ## Stage 3: Discernment Review
@@ -128,7 +128,7 @@ A BLOCK requires revision before promotion can be reconsidered.
 The agent proposes promotion to the user via `consent`.
 
 If approved:
-- Move the skill file from `.praxis/skills/incubation/` to `.praxis/skills/`
+- Install the skill for the agent, as the install lifecycle describes
 - Update the skill file to use the certified skill template (`.praxis/templates/skill-template.md`)
 - Update `confidence.md`: move the skill entry from incubating to the main Skills table, retaining its current confidence level
 - Log the promotion in git.
@@ -138,7 +138,7 @@ If approved:
 
 ## Stage 5: Certified Use
 
-The skill is in `.praxis/skills/` and is invoked as part of normal praxis cycles.
+The skill is installed for the agent and is invoked as part of normal praxis cycles.
 
 - Confidence continues to be updated via `learn` after each use
 - If the skill consistently underperforms, `introspect` may flag it for revision
